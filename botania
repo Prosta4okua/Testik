@@ -73,7 +73,7 @@ botaniamisc.getALife=Получить жизнь
 botaniamisc.floatingPrefix=Парящий(ая) %s
 botaniamisc.unsetRecipe=[Нет рецепта] Щелкните правой кнопкой мыши, чтобы установить:
 botaniamisc.cantCraft=Не хватает материалов
-botaniamisc.lotusDesc=Он излучает сильные магические вибрации
+botaniamisc.lotusDesc=Излучает сильные магические волны
 botaniamisc.hasClip=&6Скрепка объектива
 botaniamisc.clipEmpty=(Пусто)
 botaniamisc.armorset=&bСет брони&r:
@@ -87,10 +87,10 @@ botaniamisc.tutorialStarted=Вы начали своё руководство, �
 botaniamisc.tutorialEnded=Ваше руководство окончено, теперь вы должны иметь базовое представление о том, как работает Botania, не забудьте прочитать другие страницы на досуге, чтобы узнать больше способов использования мода.
 botaniamisc.cosmeticBauble=&оКосметическое
 botaniamisc.hasCosmetic=&oИмеет косметическое переопределение: &r%s
-botaniamisc.typeToSearch=(Тип поиска)
+botaniamisc.typeToSearch=(Введите текст для поиска)
 botaniamisc.viewOnline=Смотреть онлайн
 botaniamisc.history=История
-botaniamisc.historyLong=История поиска
+botaniamisc.historyLong=История просмотров
 botaniamisc.historyDesc=Просмотреть последние просмотренные записи
 botaniamisc.lexiconOptions0=Настрoйки botania
 botaniamisc.lexiconOptions1=Настроить Botania в игре
@@ -117,10 +117,10 @@ botaniamisc.hourglassLock=Это Песочные часы заблокиров�
 botaniamisc.locked=Заблокировано
 botaniamisc.stopped=Остановлено
 botaniamisc.lockedStopped=Заблокировано, остановлено
-botaniamisc.visualize=Визуализировать
-botaniamisc.unvisualize=Не визуализировать
-botaniamisc.rightClickToAnchor=Щелкните правой кнопкой мыши на любой блок, чтобы привязать этот просмотр структуры к нему
-botaniamisc.structureComplete=Структура построена!
+botaniamisc.visualize=Отобразить в мире
+botaniamisc.unvisualize=НВыкл. отображение
+botaniamisc.rightClickToAnchor=Нажмите ПКМ по любому блоку, чтобы привязать к нему отображение структуры
+botaniamisc.structureComplete=Постройка завершена!
 botaniamisc.materialsRequired=Необходимые материалы
 botaniamisc.challenges=Испытания
 botaniamisc.markCompleted=Отметить как выполненное
@@ -177,7 +177,7 @@ botania.nei.quickInfo:flower.nightshadePrimus=Этот цветок нельзя
 
 botania.nei.quickInfo:item.bone~0=У вас будет плохое времена
 botania.nei.quickInfo:item.lexicon~0=Что именно вы ожидали?
-botania.nei.quickInfo:item.terrasteel~4=Вы можете получить Терра-сталь, выбросив нужные материалы на плиту земной агломерации.
+botania.nei.quickInfo:item.terrasteel~4=Вы можете получить Террасталь, выбросив нужные материалы на плиту земной агломерации.
 botania.nei.quickInfo:item.enderAirBottle~15=Вы можете получить это, щелкнув ПКМ с помощью стеклянной бутылки, находясь в Эндер Мире.
 primus
 # BUILDCRAFT INTEGRATION
@@ -191,7 +191,7 @@ botania.triggers.runeAltarCanCraft=Алтарь готов к крафту
 # COLORS
 botania.color0=Белый
 botania.color1=Оранжевый
-botania.color2=Сиреневый
+botania.color2=Пурпурный
 botania.color3=Светло-синий
 botania.color4=Жёлтый
 botania.color5=Лаймовый
@@ -301,8 +301,8 @@ botania.roman29=XXIX
 botania.roman30=XXX
 
 # KNOWLEDGE
-botania.knowledge.minecraft=Знание людей
-botania.knowledge.alfheim=Знание &aЭльфов&7
+botania.knowledge.minecraft=ЗнаниZ людей
+botania.knowledge.alfheim=ЗнаниZ &aЭльфов&7
 botania.knowledge.relic=&5RРеликтовое&7 знание
 
 # FLOWER TYPES
@@ -431,10 +431,10 @@ botania.baubletype.belt=Можно надеть в слот &aРемня&7
 botania.baubletooltip=Нажмите &b%key%&7, чтобы открыть меню Baubles
 
 # RELIC POEMS
-item.dice.poem0=Он сдает карты , чтобы найти ответ,
-item.dice.poem1=Сакральная геометрия случайности,
-item.dice.poem2=Скрытый закон возможного исхода,
-item.dice.poem3=Цифры привести танец.
+item.dice.poem0=Сдаёт он карты из расчета
+item.dice.poem1=Найти удачи алгоритм,
+item.dice.poem2=Закон возможного исхода.
+item.dice.poem3=И числа отбивают ритм.
 
 # DEATH MESSAGES
 death.attack.botania-relic=%s был наказан за использование чужой реликвии
@@ -487,7 +487,7 @@ achievement.botania:manaBlasterShoot.desc=Cкрафьте и стреляйте 
 achievement.botania:tiaraWings=Сердечный стрелок
 achievement.botania:tiaraWings.desc=Создайте и украсьте Крылатую Тиару
 achievement.botania:terrasteelPickup=Танцовщица в темноте
-achievement.botania:terrasteelPickup.desc=Сделайте терра-сталь с использованием Наземной плиты агломирации
+achievement.botania:terrasteelPickup.desc=Сделайте террасталь с использованием Наземной плиты агломирации
 achievement.botania:elfPortalOpen=Призыв мира
 achievement.botania:elfPortalOpen.desc=Откройте портал в  Альфхейм
 achievement.botania:gaiaGuardianKill=Мертвые и ищущие
@@ -618,7 +618,7 @@ botania.challenge.runeCrafter.desc=Создайте систему, котора
 # BLOCK NAMES
 tile.botania:flower0.name=Мистический белый цветок
 tile.botania:flower1.name=Мистический оранжевый цветок
-tile.botania:flower2.name=Мистический сиреневый цветок
+tile.botania:flower2.name=Мистический пурпурный цветок
 tile.botania:flower3.name=Мистический светло-синий цветок
 tile.botania:flower4.name=Мистический жёлтый цветок
 tile.botania:flower5.name=Мистический лаймовый цветок
@@ -653,7 +653,7 @@ tile.botania:livingwood3.name=Обрамленное жизнедерево
 tile.botania:livingwood4.name=Резное жизнедерево
 tile.botania:livingwood5.name=Светящееся жизнедерево
 tile.botania:spreader0.name=Распространитель маны
-tile.botania:spreader1.name=Красный распространитель маны
+tile.botania:spreader1.name=Импульсный распространитель маны
 tile.botania:spreader2.name=Эльфийский распространитель маны
 tile.botania:spreader3.name=Распространитель маны Гайи
 tile.botania:pool0.name=Бассейн маны
@@ -662,7 +662,7 @@ tile.botania:pool2.name=Бассейн разбавленной маны
 tile.botania:runeAltar.name=Рунический алтарь
 tile.botania:unstableBlock0.name=Белый нестабильный куб
 tile.botania:unstableBlock1.name=Оранжевый нестабильный куб
-tile.botania:unstableBlock2.name=Сиреневый нестабильный куб
+tile.botania:unstableBlock2.name=Пурпурный нестабильный куб
 tile.botania:unstableBlock3.name=Светло-синий нестабильный куб
 tile.botania:unstableBlock4.name=Жёлтый нестабильный куб
 tile.botania:unstableBlock5.name=Лаймовый нестабильный куб
@@ -683,7 +683,7 @@ tile.botania:pylon1.name=Природный пилон
 tile.botania:pylon2.name=Гайа пилон
 tile.botania:manaBeacon0.name=Белый нестабильный маяк
 tile.botania:manaBeacon1.name=Оранжевый нестабильный маяк
-tile.botania:manaBeacon2.name=Сиреневый нестабильный маяк
+tile.botania:manaBeacon2.name=Пурпурный нестабильный маяк
 tile.botania:manaBeacon3.name=Светло-синий нестабильный маяк
 tile.botania:manaBeacon4.name=Жёлтый нестабильный маяк
 tile.botania:manaBeacon5.name=Лаймовый нестабильный маяк
@@ -697,7 +697,7 @@ tile.botania:manaBeacon12.name=Коричневый нестабильный м�
 tile.botania:manaBeacon13.name=Зелёный нестабильный маяк
 tile.botania:manaBeacon14.name=Красный нестабильный маяк
 tile.botania:manaBeacon15.name=Чёрный нестабильный маяк
-tile.botania:manaVoid.name=Пустота маны
+tile.botania:manaVoid.name=Мана-пустота
 tile.botania:manaDetector.name=Детектор маны
 tile.botania:enchanter.name=Маночарователь
 tile.botania:turntable.name=Поворотный стол
@@ -716,7 +716,7 @@ tile.botania:forestDrum1.name=Барабан сбора
 tile.botania:forestDrum2.name=Барабан покрытия
 tile.botania:shinyFlower0.name=Светящийся белый цветок
 tile.botania:shinyFlower1.name=Светящийся оранжевый цветок
-tile.botania:shinyFlower2.name=Светящийся сиреневый цветок
+tile.botania:shinyFlower2.name=Светящийся пурпурный цветок
 tile.botania:shinyFlower3.name=Светящийся светло-синий цветок
 tile.botania:shinyFlower4.name=Светящийся жёлтый цветок
 tile.botania:shinyFlower5.name=Светящийся лаймовый цветок
@@ -795,7 +795,7 @@ tile.botania:prismarine2Slab.name=Плита из тёмного призмар�
 tile.botania:seaLamp.name=Морской светильник
 tile.botania:miniIsland0.name=Парящий белый цветок
 tile.botania:miniIsland1.name=Парящий оранжевый цветок
-tile.botania:miniIsland2.name=Парящий сиреневый цветок
+tile.botania:miniIsland2.name=Парящий пурпурный цветок
 tile.botania:miniIsland3.name=Парящий светло-синий цветок
 tile.botania:miniIsland4.name=Парящий жёлтый цветок
 tile.botania:miniIsland5.name=Парящий лаймовый цветок
@@ -993,7 +993,7 @@ tile.botania:endStoneBrick2SlabFull.name=Эндер-кирпичная плит�
 tile.botania:endStoneBrick2Stairs.name=Эндер-кирпичные ступеньки
 tile.botania:mushroom0.name=Белый мерцающий гриб
 tile.botania:mushroom1.name=Оранжевый мерцающий гриб
-tile.botania:mushroom2.name=Сиреневый мерцающий гриб
+tile.botania:mushroom2.name=Пурпурный мерцающий гриб
 tile.botania:mushroom3.name=Светло-синий мерцающий гриб
 tile.botania:mushroom4.name=Жёлтый мерцающий гриб
 tile.botania:mushroom5.name=Зеленый мерцающий гриб
@@ -1010,7 +1010,7 @@ tile.botania:mushroom15.name=Чёрный мерцающий гриб
 tile.botania:pump.name=Мана-насос
 tile.botania:doubleFlower10.name=Высокий мистический белый цветок
 tile.botania:doubleFlower11.name=Высокий мистический оранжевый цветок
-tile.botania:doubleFlower12.name=Высокий мистический сиреневый цветок
+tile.botania:doubleFlower12.name=Высокий мистический пурпурный цветок
 tile.botania:doubleFlower13.name=Высокий мистический светло-синий цветок
 tile.botania:doubleFlower14.name=Высокий мистический жёлтый цветок
 tile.botania:doubleFlower15.name=Высокий мистический лаймовый цветок
@@ -1026,7 +1026,7 @@ tile.botania:doubleFlower26.name=Высокий мистический крас�
 tile.botania:doubleFlower27.name=Высокий мистический чёрный цветок
 tile.botania:doubleFlower18.name=Высокий мистический белый цветок
 tile.botania:doubleFlower19.name=Высокий мистический оранжевый цветок
-tile.botania:doubleFlower110.name=Высокий мистический сиреневый цветок
+tile.botania:doubleFlower110.name=Высокий мистический пурпурный цветок
 tile.botania:doubleFlower111.name=Высокий мистический светло-синий цветок
 tile.botania:doubleFlower112.name=Высокий мистический жёлтый цветок
 tile.botania:doubleFlower113.name=Высокий мистический лаймовый цветок
@@ -1114,7 +1114,7 @@ tile.botania:manaBomb.name=Манаштормовый заряд
 tile.botania:buriedPetals0=Закопанный белый лепесток
 tile.botania:buriedPetals0.name=Закопанный белый лепесток
 tile.botania:buriedPetals1.name=Закопанный оранжевый лепесток
-tile.botania:buriedPetals2.name=Закопанный сиреневый лепесток
+tile.botania:buriedPetals2.name=Закопанный пурпурный лепесток
 tile.botania:buriedPetals3.name=Закопанный светло-синий лепесток
 tile.botania:buriedPetals4.name=Закопанный жёлтый лепесток
 tile.botania:buriedPetals5.name=Закопанный лаймовый лепесток
@@ -1304,7 +1304,7 @@ item.botania:lexicon.bevo=Лексика Botania
 item.botania:lexicon.saice=Лексика Botania
 item.botania:petal0.name=Мистический белый лепесток
 item.botania:petal1.name=Мистический оранжевый лепесток
-item.botania:petal2.name=Мистический сиреневый лепесток
+item.botania:petal2.name=Мистический пурпурный лепесток
 item.botania:petal3.name=Мистический светло-синий лепесток
 item.botania:petal4.name=Мистический жёлтый лепесток
 item.botania:petal5.name=Мистический лаймовый лепесток
@@ -1318,38 +1318,38 @@ item.botania:petal12.name=Мистический коричневый лепес
 item.botania:petal13.name=Мистический зелёный лепесток
 item.botania:petal14.name=Мистический красный лепесток
 item.botania:petal15.name=Мистический чёрный лепесток
-item.botania:dye0.name=Белая цветочная пыльца
-item.botania:dye1.name=Оранжевая цветочная  пыльца
-item.botania:dye2.name=Сиреневая цветочная  пыльца
-item.botania:dye3.name=Светло-синяя цветочная  пыльца
-item.botania:dye4.name=Жёлтая цветочная  пыльца
-item.botania:dye5.name=Лаймовая цветочная  пыльца
-item.botania:dye6.name=Розовая цветочная  пыльца
-item.botania:dye7.name=Серая цветочная  пыльца
-item.botania:dye8.name=Светло-серая цветочная  пыльца
-item.botania:dye9.name=Бирюзовая цветочная  пыльца
-item.botania:dye10.name=Фиолетовая цветочная  пыльца
-item.botania:dye11.name=Синяя цветочная  пыльца
-item.botania:dye12.name=Коричневая цветочная  пыльца
-item.botania:dye13.name=Зелёная цветочная  пыльца
-item.botania:dye14.name=Красная цветочная  пыльца
-item.botania:dye15.name=Чёрная цветочная  пыльца
+item.botania:dye0.name=Белый цветочный порошок
+item.botania:dye1.name=Оранжевый цветочный порошок
+item.botania:dye2.name=Пурпурный цветочный порошок
+item.botania:dye3.name=Голубой цветочный порошок
+item.botania:dye4.name=Желтый цветочный порошок
+item.botania:dye5.name=Лаймовый цветочный порошок
+item.botania:dye6.name=Розовый цветочный порошок
+item.botania:dye7.name=Серый цветочный порошок
+item.botania:dye8.name=Светло-серый цветочный порошок
+item.botania:dye9.name=Бирюзовый цветочный порошок
+item.botania:dye10.name=Фиолетовый цветочный порошок
+item.botania:dye11.name=Синий цветочный порошок
+item.botania:dye12.name=Коричневый цветочный порошок
+item.botania:dye13.name=Зеленый цветочный порошок
+item.botania:dye14.name=Красный цветочный порошок
+item.botania:dye15.name=Черный цветочный порошок
 item.botania:pestleAndMortar.name=Пестик и ступка
 item.botania:twigWand.name=Посох леса
 item.botania:manasteel.name=Слиток мана-стали
 item.botania:manaPearl.name=Жемчуг маны
 item.botania:manaDiamond.name=Мана-алмаз
-item.botania:lensNormal.name=Линзы маны
-item.botania:lensSpeed.name=Линза маны Скорость
+item.botania:lensNormal.name=Линза маны
+item.botania:lensSpeed.name=Линза маны: Скорость
 item.botania:lensSpeed.short=Скорость
-item.botania:lensPower.name=Линза маны: Потенциал
-item.botania:lensPower.short=Потенциал
+item.botania:lensPower.name=Линза маны: Мощность
+item.botania:lensPower.short=Мощность
 item.botania:lensTime.name=Линза маны: Сопротивление
 item.botania:lensTime.short=Сопротивление
 item.botania:lensEfficiency.name=Линза маны: Эффективность
 item.botania:lensEfficiency.short=Эффективность
-item.botania:lensBounce.name=Линза маны: Отскок
-item.botania:lensBounce.short=Отскок
+item.botania:lensBounce.name=Линза маны: Отскакивание
+item.botania:lensBounce.short=Отскакивание
 item.botania:lensGravity.name=Линза маны: Гравитация
 item.botania:lensGravity.short=Гравитация
 item.botania:lensMine.name=Линза маны: Бурение
@@ -1364,27 +1364,29 @@ item.botania:lensExplosive.name=Линза маны: Энтропия
 item.botania:lensExplosive.short=Энтропия
 item.botania:lensInfluence.name=Линза маны: Воздействие
 item.botania:lensInfluence.short=Воздействие
-item.botania:lensWeight.name=Линза маны: Масса
-item.botania:lensWeight.short=Масса
-item.botania:lensPaint.name=Линза маны: Отражатель краски
-item.botania:lensPaint.short=Отражатель краски
-item.botania:lensFire.name=Линза маны: Поджог
-item.botania:lensFire.short=Поджог
+item.botania:lensWeight.name=Линза маны: Тяжесть
+item.botania:lensWeight.short=Тяжесть
+item.botania:lensFire.name=Линза маны: Воспламенение
+item.botania:lensFire.short=Воспламенение
 item.botania:lensPiston.name=Линза маны: Сила
 item.botania:lensPiston.short=Сила
-item.botania:lensLight.name=Линза маны: Вспышка
+item.botania:lensLight.name=Линза маны: Вспыхивание
+item.botania:lensLight.short=Вспыхивание
 item.botania:lensLight.short=Вспышка
 item.botania:lensWarp.name=Линза маны: Искажение
 item.botania:lensWarp.short=Искажение
-item.botania:lensRedirect.name=Линза маны :Перенаправляющая
-item.botania:lensRedirect.short=Перенаправляющая
-item.botania:lensFirework.name=Линза маны: Праздничная
-item.botania:lensFirework.short=Праздничная
-item.botania:lensFlare.name=Линза маны: Всплеск
+item.botania:lensRedirect.name=Линза маны: Перенаправление
+item.botania:lensRedirect.short=Перенаправление
+item.botania:lensFirework.name=Линза маны: Праздник
+item.botania:lensFirework.short=Праздник
+item.botania:lensFlare.name=Линза маны: Сияние
+item.botania:lensFlare.short=Сияние
+item.botania:lensPaint.name=Линза маны: Отражение красок
+item.botania:lensPaint.short=Отражение красок
 item.botania:lensFlare.short=Всплеск
 item.botania:manaPetal0.name=Белый лепесток маны
 item.botania:manaPetal1.name=Оранжевый лепесток маны
-item.botania:manaPetal2.name=Сиреневый лепесток маны
+item.botania:manaPetal2.name=Пурпурный лепесток маны
 item.botania:manaPetal3.name=Светло-синий лепесток маны
 item.botania:manaPetal4.name=Жёлтый лепесток маны
 item.botania:manaPetal5.name=Лаймовый лепесток маны
@@ -1417,7 +1419,7 @@ item.botania:rune15.name=Руна гордости
 item.botania:signalFlare.name=Сигнальная ракета
 item.botania:manaTablet.name=Планшет маны
 item.botania:manaGun.name=Излучатель
-item.botania:compositeLens.name=Совмещённые линзы маны: %s %s
+item.botania:compositeLens.name=Составная линза маны: %s & %s
 item.botania:manaCookie.name=Печенье маны
 item.botania:fertilizer.name=Цветочное удобрение
 item.botania:grassSeeds0.name=Луговое семя
@@ -1508,10 +1510,10 @@ item.botania:superLavaPendant.name=Багровый кулон
 item.botania:enderHand.name=Рука Края
 item.botania:glassPick.name=Стеклянная кирка
 item.botania:spark.name=Искра
-item.botania:sparkUpgrade0.name=Дополнитель искр: Рассеиватель
+item.botania:sparkUpgrade0.name=Дополнитель искр: Рассеивающий
 item.botania:sparkUpgrade1.name=Дополнитель искр: Доминантный
-item.botania:sparkUpgrade2.name=Дополнитель искр: Подчиненный
-item.botania:sparkUpgrade3.name=Дополнитель искр: Изолированый
+item.botania:sparkUpgrade2.name=Дополнитель искр: Рецессивный
+item.botania:sparkUpgrade3.name=Дополнитель искр: Изолирующий
 item.botania:diviningRod.name=Жезл Волхвов
 item.botania:gravityRod.name=Жезл Чёрной Мессы
 item.botania:regenIvy.name=Бессмертный плющ
@@ -1599,13 +1601,13 @@ item.botania:phantomInk.name=Фантомные чернила
 item.botania:poolMinecart.name=Вагонетка с манобассейном
 item.botania:pinkinator.name=Пинкинатор
 item.botania:infiniteFruit.name=Фрукт Гризайи
-item.botania:kingKey.name=Ключ Короля закона
+item.botania:kingKey.name=Ключ от Королевской оружейной
 item.botania:flugelEye.name=Глаз Флюгеля
 item.botania:thorRing.name=Кольцо Тора
 item.botania:odinRing.name=Кольцо Одина
 item.botania:lokiRing.name=Кольцо Локи
 item.botania:aesirRing.name=Кольцо Пантеона
-item.botania:dice.name=Кость судьбы
+item.botania:dice.name=Кости судьбы
 item.botania:keepIvy.name=Решительный плющ
 item.botania:blackHoleTalisman.name=Талисман чёрной дыры
 item.botania:recordGaia1.name=Скрипучая пластинка
@@ -1645,7 +1647,7 @@ item.botania:baubleBox.name=Пустая шкатулка
 item.botania:manaPowder.name=Мана порошок
 item.botania:manaPetal0.name=Белый лепесток маны
 item.botania:manaPetal1.name=Оранжевый лепесток маны
-item.botania:manaPetal2.name=Сиреневый лепесток маны
+item.botania:manaPetal2.name=Пурпурный лепесток маны
 item.botania:manaPetal3.name=Светло-синий лепесток маны
 item.botania:manaPetal4.name=Жёлтый лепесток маны
 item.botania:manaPetal5.name=Лаймовый лепесток маны
@@ -1715,7 +1717,7 @@ item.banner.botania_flower.pink=Розовый мистический цвето
 item.banner.botania_flower.lime=Лаймовый мистический цветок
 item.banner.botania_flower.yellow=Жёлтый мистический цветок
 item.banner.botania_flower.lightBlue=Светло-синий мистический цветок
-item.banner.botania_flower.magenta=Сиреневый мистический цветок
+item.banner.botania_flower.magenta=Пурпурный мистический цветок
 item.banner.botania_flower.orange=Оранжевый мистический цветок
 item.banner.botania_flower.white=Белый мистический цветок
 
@@ -1732,7 +1734,7 @@ item.banner.botania_lexicon.pink=Розовый лексикон
 item.banner.botania_lexicon.lime=Лаймовый лексикон
 item.banner.botania_lexicon.yellow=Жёлтый лексикон
 item.banner.botania_lexicon.lightBlue=Светло-синий лексикон
-item.banner.botania_lexicon.magenta=Сиреневый лексикон
+item.banner.botania_lexicon.magenta=Пурпурный лексикон
 item.banner.botania_lexicon.orange=Оранжевый лексикон
 item.banner.botania_lexicon.white=Белый лексикон
 
@@ -1749,7 +1751,7 @@ item.banner.botania_logo.pink=Розовая Botania
 item.banner.botania_logo.lime=Лаймовая Botania
 item.banner.botania_logo.yellow=Жёлтая Botania
 item.banner.botania_logo.lightBlue=Светло-синий Botania
-item.banner.botania_logo.magenta=Сиреневый Botania
+item.banner.botania_logo.magenta=Пурпурный Botania
 item.banner.botania_logo.orange=Оранжевый Botania
 item.banner.botania_logo.white=Белая Botania
 
@@ -1800,7 +1802,7 @@ item.banner.botania_spark_dispersive.pink=Розовый рассеивающи�
 item.banner.botania_spark_dispersive.lime=Лаймовый рассеивающийся Символ
 item.banner.botania_spark_dispersive.yellow=Жёлтый рассеивающийся Символ
 item.banner.botania_spark_dispersive.lightBlue=Светло-синий рассеивающийся Символ
-item.banner.botania_spark_dispersive.magenta=Сиреневый рассеивающий Символ
+item.banner.botania_spark_dispersive.magenta=Пурпурный рассеивающий Символ
 item.banner.botania_spark_dispersive.orange=Оранжевый рассеивающийся Символ
 item.banner.botania_spark_dispersive.white=Белый рассеивающийся Символ
 
@@ -1817,7 +1819,7 @@ item.banner.botania_spark_dominant.pink=Розовый доминантный С
 item.banner.botania_spark_dominant.lime=Лаймовый доминантный Символ
 item.banner.botania_spark_dominant.yellow=Жёлтый доминантный Символ
 item.banner.botania_spark_dominant.lightBlue=Светло-синий доминантный Символ
-item.banner.botania_spark_dominant.magenta=Сиреневый доминантный Символ
+item.banner.botania_spark_dominant.magenta=Пурпурный доминантный Символ
 item.banner.botania_spark_dominant.orange=Оранжевый доминантный Символ
 item.banner.botania_spark_dominant.white=Белый доминантный Символ
 
@@ -1834,7 +1836,7 @@ item.banner.botania_spark_isolated.pink=РозовыйIsolated Символ
 item.banner.botania_spark_isolated.lime=Лаймовый Isolated Символ
 item.banner.botania_spark_isolated.yellow=Жёлтый Isolated Символ
 item.banner.botania_spark_isolated.lightBlue=Светло-синий Isolated Символ
-item.banner.botania_spark_isolated.magenta=Сиреневый Isolated Символ
+item.banner.botania_spark_isolated.magenta=Пурпурный Isolated Символ
 item.banner.botania_spark_isolated.orange=Оранжевый Isolated Символ
 item.banner.botania_spark_isolated.white=Белый Isolated Символ
 
@@ -1851,7 +1853,7 @@ item.banner.botania_spark_recessive.pink=Розовый Recessive Символ
 item.banner.botania_spark_recessive.lime=Лаймовый Recessive Символ
 item.banner.botania_spark_recessive.yellow=Жёлтый Recessive Символ
 item.banner.botania_spark_recessive.lightBlue=Светло-синий Recessive Символ
-item.banner.botania_spark_recessive.magenta=Сиреневый Recessive Символ
+item.banner.botania_spark_recessive.magenta=Пурпурный Recessive Символ
 item.banner.botania_spark_recessive.orange=Оранжевый Recessive Символ
 item.banner.botania_spark_recessive.white=Белый Recessive Символ
 
@@ -1885,7 +1887,7 @@ item.banner.botania_axe.pink=Розовый Топор
 item.banner.botania_axe.lime=Лаймовый Топор
 item.banner.botania_axe.yellow=Жёлтый Топор
 item.banner.botania_axe.lightBlue=Светло-синий Топор
-item.banner.botania_axe.magenta=Сиреневый Топор
+item.banner.botania_axe.magenta=Пурпурный Топор
 item.banner.botania_axe.orange=Оранжевый Топор
 item.banner.botania_axe.white=Белый Топор
 
@@ -1902,7 +1904,7 @@ item.banner.botania_hoe.pink=Розовй Hoe
 item.banner.botania_hoe.lime=Лаймовый Hoe
 item.banner.botania_hoe.yellow=Жёлтое Hoe
 item.banner.botania_hoe.lightBlue=Светло-синий Hoe
-item.banner.botania_hoe.magenta=Сиреневый Hoe
+item.banner.botania_hoe.magenta=Пурпурный Hoe
 item.banner.botania_hoe.orange=Оранжевый Hoe
 item.banner.botania_hoe.white=Белый Hoe
 
@@ -1919,7 +1921,7 @@ item.banner.botania_pickaxe.pink=Розовый Pickaxe
 item.banner.botania_pickaxe.lime=Лаймовый Pickaxe
 item.banner.botania_pickaxe.yellow=Жёлтый Pickaxe
 item.banner.botania_pickaxe.lightBlue=Светло-синий Pickaxe
-item.banner.botania_pickaxe.magenta=Сиреневый Pickaxe
+item.banner.botania_pickaxe.magenta=Пурпурный Pickaxe
 item.banner.botania_pickaxe.orange=Оранжевый Pickaxe
 item.banner.botania_pickaxe.white=Белый Pickaxe
 
@@ -1936,7 +1938,7 @@ item.banner.botania_shovel.pink=Розовый Shovel
 item.banner.botania_shovel.lime=Лаймовый Shovel
 item.banner.botania_shovel.yellow=Жёлтый Shovel
 item.banner.botania_shovel.lightBlue=Светло-синий Shovel
-item.banner.botania_shovel.magenta=Сиреневый Shovel
+item.banner.botania_shovel.magenta=Пурпурный Shovel
 item.banner.botania_shovel.orange=Оранжевый Shovel
 item.banner.botania_shovel.white=Белый Shovel
 
@@ -1953,7 +1955,7 @@ item.banner.botania_sword.pink=Розовый меч
 item.banner.botania_sword.lime=Лаймовый меч
 item.banner.botania_sword.yellow=Жёлтый меч
 item.banner.botania_sword.lightBlue=Светло-синий меч
-item.banner.botania_sword.magenta=Сиреневый меч
+item.banner.botania_sword.magenta=Пурпурный меч
 item.banner.botania_sword.orange=Оранжквый меч
 item.banner.botania_sword.white=White меч
 
@@ -1990,8 +1992,8 @@ botania.page.welcome7=&oНа этом введение закончено Теп
 
 # -- TUTORIAL OF THE BASICS
 botania.entry.tutorial=Учебное пособие по основам
-botania.tagline.tutorial=Быстрые знания
-botania.page.tutorial0=В то время как можно было просто пройти через различные записи в книге на досуге, есть также учебное пособие. Нажав кнопки ниже, вы познакомитесь с основными понятиями Ботании. Вы можете выбрать между изучением книги и полезным видео.
+botania.tagline.tutorial=Быстро приобретем новые знания
+botania.page.tutorial0=В то время как кто-то на досуге просто листал бы записи в книге, Вы могли бы пройти обучение. Если Вы нажмете на кнопки под этим текстом, Вас ознакомят с азами Ботании. Вы можете выбрать либо внутриигровую экскурсию по страницам Лексики, либо короткое видео.
 
 # -- GARDEN OF GLASS
 botania.entry.gardenOfGlass=Стеклянный сад
@@ -2011,17 +2013,17 @@ botania.page.gardenOfGlass12=Наконец, рецепт &1Эндер порт�
 
 # -- LEXICA BOTANIA
 botania.entry.lexicon=Лексика Botania
-botania.tagline.lexicon=То, что вы сейчас читаете, идиот
-botania.page.lexicon0=&1Лексика Botania&0 это хранилище всех знаний, обо всём связанном с Botania. Но Вы, наверное, уже знали это.<br>Вся информация находится здесь. Для удобства,  описание блока есть в Лексике, Вы можете нажать на него ПКМ, держа &1Лексику Botania&0 в руке, чтобы сразу открыть нужный раздел.
-botania.page.lexicon3=Любые разделы написанные &oКурсивом&r это &4основные&0 разделы, которые содержат самые базовые знания, необходимые для игры с Botania. Они должны быть приоритетными по сравнению с другими. Большинство разделов содержит одну или более статей, поэтому хорошо изучите их - это хорошая идея.
+botania.tagline.lexicon=То, что вы сейчас читаете, болван!
+botania.page.lexicon0=&1Лексика Botania&0 - это хранилище абсолютно всех знаний по всем вопросам, связанным с Ботанией. Но Вы, наверное, это уже знали.<br>Вся информация находится именно здесь. Для удобства, если у блока есть описание в Лексике, Вы можете нажать ею Shift+ПКМ по этому блоку, чтобы сразу открыть нужную статью.
+botania.page.lexicon3=Любые статьи, написанные &oкурсивом&r являются &4основными&0, т.е. содержат самые базовые знания, необходимые для игры с Ботанией. Они всегда находятся выше остальных статей. Большинство разделов содержит одну или несколько таких статей, поэтому советуем хорошенько изучить их.
 botania.page.lexicon1=Создание &1Лексики Botania&0.
-botania.page.lexicon2=Название &1Лексики Botania&0 может быть изменено. Просто положите её в &1Наковальню&0 и переименуйте.<br>Издание Лексики показывает версию &4Botania&0, которая установлена у Вас. <br> И нет, Я не забочусь о четвёртой стене.
+botania.page.lexicon2=Кстати заголовок &1Лексики Botania&0 можно изменить. Положив ее на &1Наковальню&0 и переименовав, поменяется не только ее заголовок, но и название.<br>Издание Лексики показывает версию &4Ботании&0, которую Вы установили, и нет, я не забочусь о Четвертой стене.
 
 # -- MYSTICAL FLOWERS
 botania.entry.flowers=Мистические цветы
 botania.tagline.flowers=Корни ваших исследований
 botania.page.flowers0=В мире Вы могли встретить разные виды мистической флоры. Её нахождение не занимает столько много времени, сколько добра и сияния излучают эти цветы.<br>Всего насчитывается &416&0 различных видов.<br>Также, Вы можете выращивать эти цветы с помощью &1Цветочного удобрения&0 (см. далее).
-botania.page.flowers1=Цветов столько, сколько глаза могут видеть...
+botania.page.flowers1=Куда ни глянь, везде цветы...
 botania.page.flowers2=С этих цветов могут быть сорваны &1Мистические лепестки&0, которые используются для создания магических инструментов и других цветов.<br>ПКМ лепестком по земле &4зароет&0 его и заставит излучать частицы.<br>Эти лепестки также могут быть измельчены до &1Цветочной пыльцы&0, используя &1Пестик и ступку&0. Пыльца может быть использована, как обычный краситель.
 botania.page.flowers3=Выдёргивание лепестков из цветов.
 botania.page.flowers4=Создание &1Пестика и ступки&0.
@@ -2032,7 +2034,7 @@ botania.page.flowers8=Использование обычных цветочны
 botania.page.flowers10=Есть также несколько более высоких вариантов типичных &1Мистических цветов &0. Они могут быть собраны только с помощью &1Ножниц&0, но могут быть использованы для получения в два раза больше количества лепестков, которые даст нормальный цветок. Тем не менее, они слишком большие для красителя...
 botania.page.flowers12=Высокие мистические цветов можно сделать вручную, удобряя &1Мистические цветы&0 или a &1Закопанныйе лепестки&0 с &1Костной мукой&0. <br> Если вы обнаружите, что у вас низкий уровень запасов на определенном цвете, попробуйте похоронить лепесток этого цвета и использовать &1Костную муку&0 на нем.
 botania.page.flowers11=Подготовьтесь к беде.
-botania.page.flowers9=Лепестки также могут быть превращены в блоки.
+botania.page.flowers9=Лепестки можно также переделывать в блоки
 
 # -- PETAL APOTHECARY
 botania.entry.apothecary=Лепестковый аптекарь
@@ -2065,14 +2067,14 @@ botania.page.wand3=Лепестки используются для опреде
 
 # -- RUNIC ALTAR
 botania.entry.runeAltar=Рунический алтарь
-botania.tagline.runeAltar=Создайте руны для более сильных цветов и предметов
-botania.page.runeAltar21=Руническое создание - довольно важный комплекс в продвижении ботанический магии. <br>В первую очередь этот тип создания требует хорошее знание &4Управления маной&0. Прежде чем двигаться дальше, прочитайте важные разделы (написаны &oКурсивом&r) в этом разделе &1Лексики Botania&0 они могут оказаться поучительными.
-botania.page.runeAltar0=&1Руны&0 чрезвычайно важны для создания магических инструментов или флоры.<br>Чтобы создать их, ботанику понадобится &1Рунический алтарь&0.<br>Чтобы использовать &1Рунический алтарь&0 нужно поместить в него компоненты создаваемой руны, это можно сделать щелкая ПКМ или бросая эти компоненты на алтарь.
-botania.page.runeAltar1=Продолжим. Присоедините к алтарю &1Распространитель маны&0, направив его с помощью &1Посоха леса&0.<br>Вы поймёте, когда алтарь получит достаточно &4Маны&0. Когда это произойдет, просто бросьте кусочек &1Жизнекамня&0 на верх алтаря и снова щелкните по нему ПКМ посохом, теперь можете забрать Вашу руну.
+otania.tagline.runeAltar=Создает руны, которые нужны для более мощных цветов и предметов
+botania.page.runeAltar21=Создание рун - это довольно важный шаг в развитии ботанической магии. И чтобы узнать, как их создавать, Вам, в первую очередь, нужно хорошо понимать, как управлять маной. Поэтому прежде чем продолжить, прочитайте важные статьи в разделе &4Управление маной&0 (написаны &oКурсивом&r).
+botania.page.runeAltar0=&1Руны&0 - это чрезвычайно важные компоненты, использующиеся в создании сложных магических устройств и продвинутой флоры. Чтобы их сделать, Вам понадобится, как Вы уже могли догадаться, &1Рунический алтарь&0.<br>Для начала разложите на нем предметы, необходимые для создания нужной руны, нажимая ими ПКМ по алтарю или просто бросая их на него.
+botania.page.runeAltar1=После этого направьте на алтарь &1Распространитель маны&0, чтобы передать ему некоторое количество &4маны&0. Процесс наполнения алтаря &4маной&0 можно увидеть, просто посмотрев на него. Когда шкала прогресса полностью станет зеленой, киньте на алтарь &1Жизнекамень&0, а потом нажмите по нему ПКМ &1Посохом леса&0, чтобы завершить создание руны.
 botania.page.runeAltar2=Создание &1Рунического алтаря&0.
-botania.page.runeAltar3=Всего насчитывается &116 рун&0.<br>Самые базовые и элементарные руны названы в честь &4Четырёх Стихий&0. Промежуточные руны названы в честь &4Четырёх времён года&0, и самые продвинутые руны названы в честь &4Семи смертных грехов&0. Также существует самостоятельная &1Руна маны&0.
-botania.page.runeAltar20=И последнее. Нажатие Shift+ПКМ на &1Руническом алтаре&0 пустой рукой, пока он не поглощает ману, уберёт последний, помещённый в него, предмет .
-botania.page.runeAltar22=Любые руны, используемые для рецептов в &1Руническом алтаре&0, служат в качестве катализаторов и будут возвращены после завершения рецепта руны. <br> Аналогично и у   &1Лепесткового аптекаря&0, щелкнув ПКМ по блоку с пустой рукой после завершения рецепта,элементы последнего рецепта будут помещены обратно для более быстрого массового крафта.
+botania.page.runeAltar3=Всего существует 16 типов &1Рун&0.<br>Самые основные, элементарные руны названы в честь &4четырех стихий&0. Руны среднего уровня названы в честь &4четырех сезонов&0, а самые продвинутые руны названы в честь &4семи смертных грехов&0. И последняя руна в этом списке - &1Руна маны&0.
+botania.page.runeAltar20=Нажав Shift+ПКМ пустой рукой по &1Руническому алтарю&0, пока он не принимает ману, Вы вернете себе последний положенный в него предмет.<br>И еще кое-что: подсоединенный к алтарю &1Компаратор&0 будет выдавать сигналой силой &41&0, если алтарь сейчас принимает &4ману&0, и силой &42&0, если он готов создать руну.
+botania.page.runeAltar22=Любые руны, которые используются для создания чего-либо на &1Руническом алтаре&0, действуют в качестве катализаторов и не тратятся после завершения создания.<br>Как и с &1Лепестковым аптекарем&0, нажав ПКМ по алтарю пустой рукой, Вы выложите на него те предметы, что использовались в последнем рецепте.
 botania.page.runeAltar4=&1Руна воды&0.
 botania.page.runeAltar5=&1Руна земли&0.
 botania.page.runeAltar6=&1Руна воздуха&0.
@@ -2091,9 +2093,9 @@ botania.page.runeAltar18=&1Руна зависти&0.
 botania.page.runeAltar19=&1Руна гордости&0.
 
 # -- TERRASTEEL
-botania.entry.terrasteel=Терра-сталь
+botania.entry.terrasteel=Террасталь
 botania.tagline.terrasteel=Мощный металл, полученный из маны и природы
-botania.page.terrasteel0=&1Терра-сталь&0 - могучий металл, наполненный магией природы.<br>Создание этого металла не будет быстрым.Для начала создайте  наземную агломерационную плиту.
+botania.page.terrasteel0=&1Террасталь&0 - могучий металл, наполненный магией природы.<br>Создание этого металла не будет быстрым.Для начала создайте  наземную агломерационную плиту.
 botania.page.terrasteel1=Создание &1Наземной агломерационной плиты&0
 botania.page.terrasteel2=После того, как плита настроена и готова к приему &4Маны&0, выбрасывание одного &1Слитка мана-стали,Мана-алмаза и Жемчуга Маны&0 поверх плиты начнется наполнение. <br> Поднимая любой предмет с плиты, вы остановите наполнение, вызвав серьезные &4Мана потери&0. Наполнение использует половину &1Бассейна маны&0, для создание одного слитка &4Террастали&0.Также множество &1Искр&0 сделает инфузию быстрее.
 botania.page.terrasteel3=Создание &1Террастали&0 (&1Жизнекамень&0 под плитой)
@@ -2112,9 +2114,9 @@ botania.page.flowerBag2=Предметы не будут добавляться 
 botania.page.flowerBag1=Вытащите вертолет из него (любые цвета работают)
 
 # -- WRAP
-botania.entry.wrap=Оболочка
-botania.tagline.wrap=Это оболочка
-botania.page.wrap0=Похоже, создатель этого мода решил добавить странную игровую механику в виде &1Оболочки&0. Я действительно не знаю, что он делает, вероятно, что-то плохое. :/<br>Что это за "Четвертая Стена" вы говорите?..
+botania.entry.wrap=Врап
+botania.tagline.wrap=Это конец...
+botania.page.wrap0=Похоже, что создатель мода решил добавить странную игровую механику, называемую... &1Врапом&0. Понятия не имею, что она делает, но, скорее всего, что-то плохое. :/<br>Да что за "Четвертая стена", о которой Вы все время говорите...?
 
 # - MANA
 # -- AN INTRODUCTION TO MANA
@@ -2127,18 +2129,18 @@ botania.page.mIntro2=Чтобы овладеть искусством управ
 # -- MANA SPREADER
 botania.entry.spreader=Распространитель Маны
 botania.tagline.spreader=Ваш основной транспортер Маны
-botania.page.spreader0=&1Распространитель маны&0 - это самый важный компонент в деле &4Управления маной&0.<br>Этот блок позволяет &4Мане&0 перемещаться от точки А к точке Б. Если этот блок поставить на землю, он будет смотреть в одну из шести сторон. Щелкнув Shift+ПКМ с &1Посохом леса&0 в руке, &1Распространитель маны&0 повернётся в противоположную, от Вашего нажатия, сторону.
-botania.page.spreader10=Просто один раз щелкнув Shift+ПКМ с &1Посохом леса&0 в руке по распространителю вы привяжете посох к нему, щелчок Shift+ПКМ по любому блоку направит распространитель на него.<br>Shift+ПКМ по распространителю снова, отвяжет его от посоха, заметьте, что этот последний шаг должен быть сделан до попытки связать посох с другим блоком, иначе он просто повернётся к нему.
-botania.page.spreader1=Удерживание &1Посоха леса&0
-botania.page.spreader2=&1Распространитель маны&0 имеет небольшой внутренний буфер &4Маны&0, который может быть заполнен стоящими рядом &4Создающими цветами&0. Этот буфер можно увидеть с помощью &1Посоха леса&0, как показано ниже.<br>Нужно просто щелкать на этот блок ПКМ с &1Посохом леса&0, а при удерживании ПКМ вы получите динамическое значение.
-botania.page.spreader3=Пока вы просто держите &1Посох леса&0, Вы видете лучи, которые показывают куда распространитель будет передавать ману. Частицы вокруг блока всегда указывают на &4Потерю маны&0.<br>Если целью Распространителя является блок, который может использовать &4Ману&0, и он не полон, распространитель будет передавать ему &4Ману&0 в виде импульсов.
-botania.page.spreader4=Распространитель передает ману только тогда, когда предыдущий импульс попал в цель.<br>Кроме того, импульсы начнут страдать &4Потерей маны&0 после короткого промежутка времени. Это можно увидеть по лучу, который становится тоньше, когда такое происходит. Также &4Потеря маны&0 возникает, когда луч попадает в распространитель.
-botania.page.spreader11=Применяв &4Сигнал красного камня&0 к распространителю можно заставить его выключится. Иногда требуется более эффективный контроль, в этом случае рекомендован &1Красный распространитель маны&0, который может стрелять очередями, даже при отсутствии целевого блока и работает на импульсе красного камня.
+botania.page.spreader0=&1Распространитель&0 - это самое важное устройство по управлению &4маной&0. Этот блок позволяет перемещать ее из точки А в точку Б. Нажав по нему Shift+ПКМ &1Посохом леса&0 в &4режиме управления&0, Вы повернете его в сторону, противоположную той, по которой кликнули. Его также можно направить строго на нужный блок, нажав Shift+ПКМ посохом в &4режиме привязки&0.
+botania.page.spreader1=*При удерживании &1Посоха леса&0
+botania.page.spreader2=&1Распространитель&0 имеет небольшой внутренний буфер &4маны&0, который будет заполняться от близлежащих &4генерирующих цветов&0. Чтобы отобразить буфер, просто наведите на &1Распространитель&0 &1Посохом леса&0 (см. пред. стр.). И помните! Чтобы получить более точное кол-во маны в блоке, необходимо кликнуть по нему ПКМ &1Посохом леса&0.  
+botania.page.spreader3=Держа &1Посох леса&0, Вы увидите, куда направлен луч распр-теля. При помощи посоха можно также посмотреть его цель, которая показана под буфером. Искра на конце луча показывает, что за ее пределами начнется серьезная &4потеря маны&0. Если цель распр-теля способна хранить &4ману&0 и не наполнена ею целиком, он выстрелит &4сгустком&0, который отправится к цели и передаст ману в ее буфер.
+botania.page.spreader4=Распр-тель выстреливает только одним сгустком, и пока он не достигнет цели, новый из распр-теля не вылетит. Более того, эти сгустки начинают &4терять ману&0 спустя небольшой промежуток времени в полете. Это можно увидеть по лучу, который становится меньше, когда теряет ману. &4Небольшая потеря маны&0 также происходит, когда луч попадает в распр-тель.
+botania.page.spreader11=Распр-тель можно отключить, проведя к нему &4редстоун-сигнал&0. Но для большего контроля рекомендуем пользоваться &1Пульсирующим распространителем&0, т.к. он испускает лучи только по редстоун-сигналу и не требует цели.
 botania.page.spreader5=Создание &1Распространителя маны&0
+botania.page.spreader10=Нажав ПКМ по распространителю &1Шерстью&0, Вы покроете его ею. Помимо того, что шерсть делает его более привлекательным, она еще и приглушает звук при испускании лучей, делая его не таким неприятным, особенно когда на небольшой территории стоят сразу несколько распр-телей. Если повторно кликнуть по нему ПКМ пустой рукой, Вы снимите покрытие из шерсти.
 
 # -- MANA POOL
 botania.entry.pool=Бассейн маны
-botania.tagline.pool=Мана-хранилище для народа
+botania.tagline.pool=Общедоступное хранилище маны
 botania.page.pool0=&1Бассейн маны&0 - это, проще говоря, хранилище &4Маны&0.<br>Мана может быть налита в него с использованием &1Распространителя маны&0, и ближайшие &1Распространители маны&0 будут вытягивать ману из него автоматически, увеличивая тем самым свой внутренний запас.<br>Любые &4Действующие цветы&0 требуют установленного рядом &1Бассейна маны&0, чтобы получать энергию от него.
 botania.page.pool9=&1Бассейны маны&0 имеют два исполнения: слабый - &1Бассейн разбавленной маны&0 хранит только небольшое количество &4маны&0 и не в состоянии наполнять ей предметы, и &1Нормальный&0 вариант, который хранит в сто раз большее, количество маны и способен наполнять предметы.<br>Всякий раз, когда понятие "Бассейн маны" будет упоминаться в другом месте, это будет относится к нормальному варианту.
 botania.page.pool1=Создание &1Бассейна разбавленной маны&0.
@@ -2146,32 +2148,32 @@ botania.page.pool10=Создание &1Бассейна маны&0 наполн�
 botania.page.pool14=&1Бассейн разбавленной маны&0 может быть полезен, когда необходимо небольшое хранилище для цветка или системы, которые не используют много &4маны&0, так как нормальный бассейн очень вместителен. Из-за этого определение &4маны&0 в бассейне не будет точным из-за масштаба.
 botania.page.pool2=Бросание некоторых ресурсов в бассейн маны, заставит их наполнится &4Маной&0, превращая их в более мощные формы. Несколько примеров: &1Железные слитки&0 или &1Мистические лепестки&0.<br>Количество &4Маны&0 в бассейне можно узнать стандартным способом способом - щелчком ПКМ. &1Компаратор&0 будет выводить сигнал на основе количества содержащейся маны.
 botania.page.pool8=Для изменения декоративного вида бассейна, бросьте в него &1Цветочную пыльцу&0. Его цвет измениться на цвет пыльцы. Все шестнадцать цветов доступны его для украшения или обычной маркировки.
-botania.page.pool3=Наполнение &1Мана-стали&0
-botania.page.pool4=Наполнение &1Жемчуга маны&0
-botania.page.pool5=Наполнение &1Мана-алмазов&0
-botania.page.pool6=Наполнение &1Лепестка маны&0
-botania.page.pool11=Наполнение &1Манастекла&0, очищение стекла без швов.
-botania.page.pool12=Наполнение &1Нитки&0
-botania.page.pool13=Использование &1Мананитки&0 чтобы сделать &1Паутину&0
-botania.page.pool7=&1Печенье маны&0 очень хорошо накормит вас.
+botania.page.pool3=Создание &1Манастали&0
+botania.page.pool4=Создание &1Жемчуга маны&0
+botania.page.pool5=Создание &1Мана-алмазов&0
+botania.page.pool6=Создание &1Лепестка маны&0
+botania.page.pool11=Создание &1Манастекла&0, очищение стекла без швов.
+botania.page.pool12=Наполнение &1нити&0 маной
+botania.page.pool13=Можно использовать эту нить для создания &1Паутины&0
+botania.page.pool7=Ну просто космическое печенье!
 
 # -- SPARKS
 botania.entry.sparks=Искры
-botania.tagline.sparks=Простые и быстрые мана-транспортеры малой дальности
-botania.page.sparks0=&1Искры&0 это интересный объект. Созданный из комбинации чистой энергии и &4маны&0. Они могут быть размещены на специальном отдающем или принимающем &4ману&0 блоке, например, &1Бассейне маны&0.<br>Некоторые блоки могут использовать &4ману&0 из &1Искр&0, но их использование для этого, кажется, пока существенно ограничено.
-botania.page.sparks1=&oХватайте ложки!&r
-botania.page.sparks3=Если вам покажется, что &1искры&0 выглядят слишком навязчиво, использование &1фантомные чернила&0 на &1искре&0 сделают их полупрозрачными. Чернила не расходуются.
-botania.page.sparks2=&o Поддерживает spork&r
+botania.tagline.sparks=Простые и быстрые передатчики маны малой дальности
+botania.page.sparks0=&1Искра&0 - это довольно занятный объект, созданный из &4маны&0 и сырой энергии. Их можно ставить поверх нескольких конкретных блоков, содержащих или хранящих ману, в том числе на &1Бассейн маны&0. А некоторые блоки имеют возможность извлекать эту &4ману&0 из хранилищ через те самые &1Искры&0, правда на раннем этапе ими мало где можно воспользоваться.
+botania.page.sparks1=Поставив одну &1Искру&0 поверх &1Бассейна маны&0, а другую - на блок, который сможет ею воспользоваться, Вы позволите последнему при необходимости получить удаленный доступ к &1Бассейну маны&0, главное, чтобы он стоял не слишком далеко. Чтобы снять &1Искру&0, кликните по ней Shift+ПКМ &1Посохом леса&0. А нажав им просто ПКМ, Вы увидите, каким &1искрам&0 наша может передать ману.
+botania.page.sparks3=Если &1Искры&0 покажутся Вам слишком надоедливыми из-за своего мерцания, просто кликните по одной из них &1Призрачными чернилами&0, чтобы сделать ее более прозрачной и незаметной. Чернила при этом не потратятся.
+botania.page.sparks2=&oготовьте вилы&r
 
 # -- SPARK AUGMENTATION
 botania.entry.sparkUpgrades=Дополнитель искр
-botania.tagline.sparkUpgrades=Обновите свои искры, чтобы обеспечить лучшую функциональность
-botania.page.sparkUpgrades0=Как оказалось, &1Искры&0 более разнообразны, чем вы считали ранее. В целях улучшения возможностей &1Искр&0 к ним могут применяться различные &1Дополнители&0. Слудует отметить, что &1дополнители&0 могут применяться только к &1Искрам&0 которые лежат на &1Бассейне маны&0.<br>&1Искры&0 могут иметь только один &1дополнитель&0 одновременно.
-botania.page.sparkUpgrades1=Начнем. <br>&1Рассеивающий дополнитель&0 позволит &1Искрам&0, используя &4ману&0 из бассейна, заряжать &4маносодержащие&0 предметы в инвентарях игроков.
-botania.page.sparkUpgrades2=&1Доминантный дополнитель&0 позволяет &1Искре&0 поглощать &4ману&0 из ближайших, содержащих &1Искры&0 бассейнов, пока его бассейн полностью не заполнится.
-botania.page.sparkUpgrades3=&1Подчиненный дополнитель&0 позволяет &1Искре&0 раздавать &4ману&0 из своего &1бассейна маны&0 в другие бассейны, содержащие &1Искры&0 бассейны, до полного его опустошения.
-botania.page.sparkUpgrades4=И последний.<br>&1Изолированный дополнитель&0 предотвращает передачу &4маны&0 от других бассейнов, содержащих &4Доминантные&0 или &4Подчиненные&0 &1Искры&0, но по прежнему позволяет взаимодействовать с блоками, которые могут принимать от них &4ману&0 через сеть &1Искр&0.
-botania.page.sparkUpgrades5=Создание Дополнителей
+botania.tagline.sparkUpgrades=Улучшает искры, чтобы повысить их функционал
+botania.page.sparkUpgrades0=Кажется, &1Искры&0 имеют немного больше функционала, чем предполагалось ранее. Существует множество &1Дополнителей&0, которые могут улучшить их способности. Следует отметить, что дополнители можно вставлять только в те &1Искры&0, что находятся над &1Бассейнами маны&0.<br>В каждую &1Искру&0 можно вставить лишь один &1Дополнитель&0.
+botania.page.sparkUpgrades1=Начнем с &1Рассеивающего дополнителя&0. С ним &1Искра&0 будет использовать &4ману&0 из бассейна под собой для подзарядки всех хранящих &4ману&0 предметов в инвентарях игроков, находящихся поблизости.
+botania.page.sparkUpgrades2=&1Доминантный дополнитель&0 позволит &1Искре&0 забирать &4ману&0 из всех близлежащих бассейнов при условии, что &1Искры&0 над ними не улучшены дополнителями, и передавать ее в свой, до тех пор пока он не наполнится до конца.
+botania.page.sparkUpgrades3=&1Рецессивный дополнитель&0 позволит &1Искре&0 отдавать &4ману&0 из своего бассейна в любой другой при условии, что над вторым будет находиться &1Искра с рассеивающим дополнителем&0 или вовсе без них. &1Искра&0 будет отдавать &4ману&0 до тех пор, пока бассейн полностью не опустеет.
+botania.page.sparkUpgrades4=Ну и наконец, &1Изолирующий дополнитель&0 запрещает &1Искре&0 взаимодействовать с любыми Доминантными и Рецессивными &1Искрами&0, но все же позволяет ей взаимодействовать с теми блоками, что способны принимать &4ману&0 через сеть &1искр&0.
+botania.page.sparkUpgrades5=Создание дополнителей
 
 # -- MANA DISTRIBUTOR
 botania.entry.distributor=Распределитель маны
@@ -2180,71 +2182,71 @@ botania.page.distributor0=Любой ботаник в конечном итог
 botania.page.distributor1=Создание распределителя
 
 # -- MANA VOID
-botania.entry.manaVoid=Пустота маны
-botania.tagline.manaVoid=Уничтожает всю ману, которая входит в нее
-botania.page.manaVoid0=&1Пустота маны&0 - это, с точки зрения непрофессионала, могила для &4Маны&0. Любая &4Мана&0, выстреленная в этот блок просто исчезнет в пустоту и Вы никогда её не вернете.<br>Размещение одного такого блока под &1Бассейном маны&0 позволит бассейну вечно принимать &4Ману&0 не позволяя её хранить, т.к. мана будет уничтожена.
-botania.page.manaVoid1=Создание блока Пустоты
+botania.entry.manaVoid=Мана-пустота
+botania.tagline.manaVoid=Уничтожает всю ману, что в нее попадает
+botania.page.manaVoid0=Говоря простым языком, &1Мана-пустота&0 - это могила для &4маны&0. Любая &4мана&0, попавшая в этот блок, просто испарится в пустоте и больше не вернется назад.<br>Поставив один такой блок под &1Бассейн маны&0, Вы позволите бассейну все также принимать &4ману&0, но уничтожать ту, которая в него не помещается.
+botania.page.manaVoid1=&oЭто как Чад из отдела бухгалтерского учета?
 
 # -- MANA FLUXFIELD
-botania.entry.rfGenerator=Мана-RF преобразователь
+botania.entry.rfGenerator=Энергопреобразователь маны
 botania.tagline.rfGenerator=Конвертирует Ману в RF
-botania.page.rfGenerator0=Передавая &4ману&0 в поле редстоун энергии, её тип можно изменить из природной энергии на &4Redstone Flux&0.<br>Просто направив распространитель маны на этот блок полученная порция &4маны&0 будет конвертироваться в энергию &4RF&0. Она может быть извлечена из преобразователя любым &4RF-передатчиком&0.
-botania.page.rfGenerator1=Пуля ребята. Ловил их зубами.
+botania.page.rfGenerator0=Если пропустить &4ману&0 сквозь энергетическое поле красного камня, она превратится из природного источника энергии в &4Поток редстоуна&0.<br>Просто нацельте распространитель на этот блок, и когда сгусток &4маны&0 достигнет его, она превратится в &4RF&0. Затем эту энергию можно будет вытащить при помощи любого &4RF&0-передатчика.
+botania.page.rfGenerator1=Я собрался с силами, парни. Я сделал это!
 
 # -- MANA LENSES
 botania.entry.lens=Линзы маны
-botania.tagline.lens=Разнообразные дополнения для ваших распространителей
-botania.page.lens0=В целях повышения потенциала &1Распространителя маны&0, можно применить &1Линзы маны&0. Основные линзы маны вообще ничего не делают.<br>Линзы могут быть &4Окрашенны&0 во все 16 цветов спектра или могут быть соединены с &1Жемчугом маны&0, чтобы создать &1Радужные линзы&0. Это изменит цвет всплеска маны.
-botania.page.lens1=Основные линзы, они ничего не делают.
-botania.page.lens2=&4Умирающие&0 линзы!
-botania.page.lens3=&1Радужные линзы&0 всю дорогу
-botania.page.lens4=Но линзы нужны не только для красивых цветов. Можно улучшить их разными материалами для создания новых линз, которые могут накладывать разные эффекты на &4Всплески маны&0.<br>Помните: используя обычный &1Распространитель маны&0 потребуется блок, который сможет принять &4Ману&0 в конце всплеска маны. &1Красный распространитель маны&0 рекомендуется для некоторых видов линз.
-botania.page.lens5=Однако, иметь одну &1Линзу маны&0 в распространителе бывает недостаточно. Положив две линзы маны со &1Слизью&0 в верстак, можно объединить их в одну, сохранив эффекты обеих линз.<br>Первая линза определяет визуальные качества (текстуру и цвет). Стоит отметить, что некоторые комбинации не будут работать, например, не будут работать две одинаковые линзы.
-botania.page.lens6=&1Линза маны:Скорость&0 резко увеличит скорость перемещения &4Всплеска маны&0, но при этом луч начинает терять &4Ману&0 намного быстрее, он также будет переносить немного меньше маны.
-botania.page.lens7=Линза маны: Скорость
-botania.page.lens8=&1Линза маны:Потенциал&0 удвоят количество &4Маны&0, которое &4Всплеск маны&0 может передавать, однако, луч становится медленнее и после этого он начинает терять ману намного быстрее.
-botania.page.lens9=Линза маны: Потенциал
-botania.page.lens10=&1Линза маны:Сопротивление&0 позволят значительно увеличить количество времени, в течении которого &4Всплеск маны&0 передаваться без потерь &4Маны&0, но при этом он немного замедляется.
-botania.page.lens11=Линза маны:Сопротивление
-botania.page.lens12=&1Линза маны: Эффективность&0 уменьшают количество времени, необходимое для начала потери &4Маны&0 &4Всплеском маны&0, но когда это произойдёт, он будет делать это намного медленнее.
-botania.page.lens13=Линза маны: Эффективность
-botania.page.lens14=&1Линза маны: Отскок&0 позволят &4Всплеску маны&0 отскакивать от стен, а не рассеиваться при столкновении.
-botania.page.lens15=Линза маны: Отскок
-botania.page.lens16=&1Линза маны: Гравитация&0 делают так, чтобы &4Всплеск маны&0 притягивался гравитацией и, таким образом, двигался по дуге. В качестве компенсации, он также немного увеличивает время до начала потери &4Маны&0.
-botania.page.lens17=Линза маны: Гравитация
-botania.page.lens18=&1Линза маны: Бурение&0 заряжают &4Всплеск маны&0 способностью уничтожения любых блоков, с которыми он вступает в контакт, тратя на это собственную ману.
-botania.page.lens19=Линза маны: Бурение 
-botania.page.lens20=&1Линза маны: Повреждение&0 заряжают &4Всплеск маны&0 силой, способной наносить урон любым существам, на которых он натолкнулся, тратя на эти цели собственную ману.
-botania.page.lens21=Линза маны: Повреждение
-botania.page.lens22=&1Линза маны: Призрачность&0 очень интересны. Используя &1Заумную платформу&0 и её свойства, можно сделать линзы, которые будут позволять &4Всплеску маны&0 проходить сквозь платформы. При этом уменьшается время, до начала потери маны.
-botania.page.lens23=Линза маны: Призрачность
-botania.page.lens24=&1Линза маны: Магнетизм&0, как говорит их название, позволяет &4Всплеску маны&0 намагничивать маной любые ближайшие блоки, которые могут получать &4Ману&0. Это немного снижает скорость всплеска.
-botania.page.lens25=Линза маны: Магнетизм
-botania.page.lens26=&1Линза маны: Энтропия&0 наполняют &4Всплеск маны&0 энтропией, заставляя его отдавать свою энергию в виде взрыва, когда он сталкивается с чем-то, что не может получить &4Ману&0.
-botania.page.lens27=Линза маны: Энтропия
-botania.page.lens28=&1Линз маны: Воздействие&0 позволяют &4Всплеску маны&0 воздействовать на любые находящиеся поблизости &4брошенные предметы&0, &4сферы опыта&0 и даже на &4выпадающие блоки&0, заставляя их двигаться в том же направлении, что и всплеск.
-botania.page.lens29=Линза маны: Воздействие
-botania.page.lens30=&1Линза маны: Масса&0 несут сильную нагрузку во &4Всплеске маны&0, заставляя любой ударенный блок, если под ним нет другого блока, упасть, подобно тому как делают &1Песок&0 и &1Гравий&0.
-botania.page.lens31=Линза маны: Масса
-botania.page.lens32=&1Линза маны: Поджог&0 наполнены горящей искрой. Когда она попадает в блок, он загорится. Они также обладают способностью к воспламенению и закрытию &1Портала Нижнего мира&0. Линза, однако не поджигает любых живых существ.
-botania.page.lens33=Линза маны: Поджог
-botania.page.lens34=&1Линза маны: Сила&0 работают как &1Поршень&0, когда они попадают по блоку, который поршень может двигать, блок двигается.
-botania.page.lens35=Линзa маны: Сила
-botania.page.lens36=&1Линза маны: Вспышка&0, находящийся в контакте с блоком, создает пламя того же цвета, что и взрыв, вызвавший его. Пламя обеспечивает свет и является чисто декоративным. <br> Если он попадает в одно из этих пламен, она вытесняет его.
-botania.page.lens37=Линзa маны: Вспышка
+botania.tagline.lens=Разные улучшения для Ваших распространителей
+botania.page.lens0=Для того чтобы увеличить возможности &1Распространителей&0, можно использовать &1Линзы маны&0. Однако самая базовая линза маны ничего не дает.<br>В верстаке линзы можно &4покрасить&0 в любой из 16 цветов или совместить с &1Жемчугом маны&0 для создания &1Радужной линзы&0. Все это изменит цвет вылетаемого сгустка маны.
+botania.page.lens1=Базовая линза, которая ничего не дает.
+botania.page.lens2=&4Окрашенные&0 линзы!
+botania.page.lens3=&1Радужная линза&0
+botania.page.lens4=Но линзы предназначены не только для смены цветов. Можно улучшить их разными материалами, и так создать новую линзу, способную наложить на &4сгустки маны&0 кучу разных эффектов. Имейте в виду, что обычные &1Распр-тели&0 испускают сгустки, только когда на их пути находится какой-нибудь принимающий &4ману&0 блок. Для некоторых линз лучше использовать &1Красный распр-тель&0.
+botania.page.lens5=Порой бывает, что для распр-теля нужно как минимум две &1линзы маны&0. Положив обе линзы и &1сгусток слизи&0 на верстак, их можно объединить в одну, при этом сохранив эффекты обоих. Важно знать, что именно первая линза будет определять визуальные эффекты составной (текстуру и цвет). Также помните, что некоторые линзы невозможно объединить, как и две одинаковые.
+botania.page.lens6=&1Линза скорости&0 значительно увеличит скорость перемещения &4сгустков маны&0, но это резко уменьшит время, после которого будет происходить сильная потеря &4маны&0, да и сгустки за раз будут переносить немного меньше маны.
+botania.page.lens7=Линза скорости
+botania.page.lens8=&1Линза мощности&0 удвоит количество &4маны&0, перемещаемой &4сгустком&0 за один раз, но луч станет медленнее, а сильная потеря &4маны&0 начнется на более близком растоянии.
+botania.page.lens9=Линза мощности
+botania.page.lens10=&1Линза сопротивления&0 значительно увеличит время, после которого &4сгусток&0 начнет терять &4ману&0, но при этом он будет намного медленее перемещаться.
+botania.page.lens11=Линза сопротивления
+botania.page.lens12=&1Линза эффективности&0 уменьшит время, после которого &4сгусток&0 начнет терять &4ману&0, но когда это случится, он будет терять ее намного медленнее.
+botania.page.lens13=Линза эффективности
+botania.page.lens14=&1Линза отскакивания&0 позволит &4сгустку маны&0 отскакивать от стен, вместо того чтобы рассеиваться при столкновении.
+botania.page.lens15=Линза отскакивания
+botania.page.lens16=&1Линза гравитации&0 сделает &4сгусток маны&0 подверженным силе притяжения, тем самым заставив его двигаться не прямо, а по дуге. В качестве компенсации это также увеличит время, после которого начнется потеря &4маны&0.
+botania.page.lens17=Линза гравитации
+botania.page.lens18=&1Линза бурения&0 позволит &4сгустку маны&0 разрушить любые блоки, которые будут стоять на его пути, при этом истощая собственный запас маны.
+botania.page.lens19=Линза бурения 
+botania.page.lens20=&1Линза повреждения&0 позволит &4сгустку маны&0 наносить урон всем существам, которые будут стоять на его пути, при этом истощая собственный запас маны.
+botania.page.lens21=Линза повреждения
+botania.page.lens22=&1Линза призрачности&0 - это одна из наиболее занятных улучшений. Используя &1Заумную платформу&0 и ее свойства, можно сделать линзу, которая позволит &4сгустку маны&0 проходить сквозь блоки. При этом уменьшится время, после которого начнется потеря маны.
+botania.page.lens23=Линза призрачности
+botania.page.lens24=Название линзы говорит само за себя: &1Линза магнетизма&0 позволит &4сгустку маны&0 притягиваться к любому соседнему блоку, способному принимать &4ману&0. Из-за этого также немного снижается скорость полета сгустка.
+botania.page.lens25=Линза магнетизма
+botania.page.lens26=&1Линза энтропии&0 наполнит &4сгусток маны&0 энергией хаоса и заставит высвободить ее в форме взрыва при контакте с чем-либо, что не способно принимать &4ману&0.
+botania.page.lens27=Линза энтропии
+botania.page.lens28=&1Линза воздействия&0 позволит &4сгустку маны&0 оказывать влияние на близлежащие &4предметы&0, &4сферы опыта&0 и даже на &4падающие блоки&0, заставляя их двигаться в том же направлении, что и сам сгусток.
+botania.page.lens29=Линза воздействия
+botania.page.lens30=&1Линза тяжести&0 способна сильно нагрузить &4сгусток маны&0, так, что попав в блок, он заставит его упасть подобно тому, как падают &1песок&0 и &1гравий&0 (при условии, что под блоком ничего не будет).
+botania.page.lens31=Линза тяжести
+botania.page.lens32=&1Линза воспламенения&0 создает горящую искру в &4сгустке маны&0, которая поджигает блоки при контакте с ними. Линза также способна зажечь и потушить &1Адские порталы&0. Но, кажется, существ она не подожжет.
+botania.page.lens33=Линза воспламенения
+botania.page.lens34=&1Линза силы&0 работает подобно обычному &1Поршню&0. Если сгусток, прошедший через эту линзу, попадет в блок, он передвинет его также, как это сделал бы поршень. Правда действие линзы распространяется только на те блоки, которые поддаются ванильному поршню.
+botania.page.lens35=Линза силы
+botania.page.lens36=При контакте с блоком &1Линза вспыхивания&0 создает пылающий шар того же цвета, что и сгусток маны, который его породил. Этот шар испускает свет и является чисто декоративным предметом.<br>Если сгусток, пролетевший сквозь линзу, коснется уже созданного пылающего шара, то последний исчезнет.
+botania.page.lens37=Линза вспыхивания
 
 # -- MANA TABLET
 botania.entry.manaTablet=Планшет маны
 botania.tagline.manaTablet=Портативное хранение маны
-botania.page.manaTablet0=При использовании &1Распространителя ман &0 для транспорта  &4Маны&0 вокруг будет все хорошо и хорошо,но  есть также способ сделать это по-другому. <br> The &1Планшет маны&0 - это переносимый объект, который может переносить и &4Ману&0 на себе. Но другие предметы также могут извлекать из него, поскольку они нуждаются в этом для их использования, что делает его важным инструментом.
-botania.page.manaTablet1=Бросок одного из них поверх &1Бассейна маны&0 позволит транспортировать &4Ману&0 между одним и другим.<br> Если нажать Shift+ПКМ  по &1Бассейну маны&0 с помощью &1Посоха леса&0, то изменится, в каком направлении будет двигаться поток &4Маны&0. <br> В конце концов, в отличие от обычных предметов, они никогда не исчезнут при падении на пол
-botania.page.manaTablet2=Не кладите его в карман, он может согнуться
+botania.page.manaTablet0=Использовать &1Распр-тели&0 для перемещения &4маны&0 - удобно и надёжно, но сделать это можно и по-другому.<br>&1Планшет маны&0 - это портативный предмет, способный переносить &4ману&0 в себе. И это не просто хранилище! Некоторые предметы могут извлекать из него &4ману&0, поскольку она необходима для их работы, и это делает планшет важным инструментом.
+botania.page.manaTablet1=Кинув один из таких планшетов на &1Бассейн маны&0, Вы позволите &4мане&0 перемещаться, к примеру, с бассейна на планшет. Нажав по &1Бассейну&0 Shift+ПКМ &1Посохом Леса&0, Вы смените направление, по которому будет перетекать &4мана&0 (Бассейн->Планшет, Планшет->Бассейн). В отличие от обычных предметов, &1Планшет&0, будучи брошенным на пол, никогда не исчезнет.
+botania.page.manaTablet2=Не класть в карман, может погнуться
 
 # -- MANA MIRROR
 botania.entry.manaMirror=Зеркало маны
 botania.tagline.manaMirror=Удаленный портативный доступ к мане
-botania.page.manaMirror0=&1Зеркало маны&0 является альтернативой &4Контейнерам Маны&0, , как &1Планшет маны&0. Зеркало может быть связано с &1Бассейном маны&0 в мире, и предметы будут выходить из самого бассейна при необходимости &4Маны 0. <br> Чтобы привязать зеркало к бассейну, просто  щелкните&4Shift+ПКМ &0 по бассейну с зеркалом. Зеркало не может вмещать  в себе ману или вывести ману из бассейнов любым другим способом.
-botania.page.manaMirror1=Зеркало,зеркало на стене...
+botania.page.manaMirror0=&1Зеркало маны&0 - это альтернатива таким &4мана&0-содержащим предметам, как &1Планшет маны&0. Зеркало можно привязать к &1Бассейну маны&0, и все предметы в инвентаре, которым нужна &4мана&0, возьмут ее прямо из этого бассейна.<br>Нажав зеркалом &4Shift+ПКМ&0 по бассейну, Вы свяжите их. По-другому зеркало никак не может помещать или брать ману из бассейна.
+botania.page.manaMirror1=Свет мой, зеркальце, скажи...
 
 # -- PORTABLE MANA TRANSPORT
 botania.entry.manaTransport=Портативный транспорт маны
@@ -2261,16 +2263,16 @@ botania.page.manaDetector0=Такое устройство как &1Детект
 botania.page.manaDetector1=Создание детектора
 
 # -- REDSTONE MANA SPREADER
-botania.entry.redstoneSpreader=Красный распространитель маны
-botania.tagline.redstoneSpreader=Распространитель, который стреляет по импульсу Редстоуна
-botania.page.redstoneSpreader0=Соединяя &1Распространитель маны&0 с &1Красной пылью&0, можно создать &1Красный распространитель маны&0, который стреляет только тогда, когда подаётся &4Сигнал красного камня&0, независимо от того, есть ли целевой блок для приема маны.<br>Важное примечание: это не позволяет распространителю стрелять всплеском маны, пока предыдущий всплеск не рассеялся или не поглотился.
-botania.page.redstoneSpreader1=Просто добавьте красный камень
+botania.entry.redstoneSpreader=Импульсный распространитель маны
+botania.tagline.redstoneSpreader=Распространитель, который стреляет по редстоун-сигналу
+botania.page.redstoneSpreader0=Добавив в &1Распр-тель маны&0 кусочек &1Красной пыли&0, можно создать &1Импульсный распр-тель&0, который, как и следует из названия, срабатывает по &4редстоун-сигналу&0 независимо от того, есть ли в конце блок, принимающий &4ману&0, или нет. Имейте в виду, что распр-тель не сможет выстрелить сгустком, пока предыдущий не рассеится или не будет поглощен.
+botania.page.redstoneSpreader1=Просто добавь красной пыли
 
 # -- MANASTAR
 botania.entry.manastar=Звезда маны
-botania.tagline.manastar=Цветок для классификации потерь маны или прибыль
-botania.page.manastar0=Неточность измерений &1Посоха леса&0 иногда не показывает теряете ли Вы или получаете ману в Ваших &1Бассейнах маны&0.<br>Создание &1Звезды маны&0 и её размещение рядом с Вашими бассейнами решит эту проблему: Звезда будет светить красным, если есть потери или синим, если есть прибыль. Измерение происходит каждые несколько секунд.
-botania.page.manastar1=&rЯ падающая звезда, прыгающая через небеса&r.
+botania.tagline.manastar=Цветок, выявляющий потерю или прирост маны
+botania.page.manastar0=Из-за неточности измерений &1Посох Леса&0 порой не даст ответа на вопрос, увеличивается ли количество маны в &1Бассейнах&0 или уменьшается. Создав &1Звезду маны&0 и поставив ее вплотную к бассейну, Вы увидите, что при уменьшении маны она будет испускать красные частицы, а при увеличении - синие. Измерения происходят каждые несколько секунд.
+botania.page.manastar1=&rЯ метеор, пронзающий небеса...&r
 
 # -- ELVEN MANA SPREADER
 botania.entry.dreamwoodSpreader=Эльфийский распространитель маны
@@ -3572,15 +3574,15 @@ botania.page.aIntro11=Объем информации об &1Альфхейме&
 
 # -- A MESSAGE FROM ELVEN GARDE
 botania.entry.elfMessage=Письмо из Эльфийского сада
-botania.tagline.elfMessage=Определенно сообщение. Ага
+botania.tagline.elfMessage=Ну, разумеется, это письмо. Вооот...
 botania.page.elfMessage0=
 # ^ This is blank on purpose
-botania.page.elfMessage1=&oПоздравляем. Мы заметили, что наш портал открыл связь с другим миром. И это действительно, довольно шокирующая новость. Мы благодарим Вас за предоставление нам книги знаний вашего мира, чтобы держать нас в курсе всего, что произошло, так как мы оставили этот мир, давным-давно.
-botania.page.elfMessage2=&oПосле некоторых дискуссий с верховным консулом Эльфийских садов, мы решили объединить усилия. Прочитав Вашу "Лексику Botania" мы обнаружили наличие большого количества ресурсов в вашем мире, которые мы чрезвычайно заинтересованы получить в свои руки, так как они не существуют на наших землях.
-botania.page.elfMessage3=&oСвязь, которую вы сумели установить слаба, живые существа не смогут пройти, как вы уже знаете. Однако в этом есть и положительная сторона, связь проходит сквозь ткань времени обоих наших миров, по пути теряя синхронизацию, поэтому вы получили вашу книгу обратно так быстро.
-botania.page.elfMessage4=&oЧто касается расхода маны и других магических энергий - у нас большие запасы, так что беспокоиться о закрытии портала с нашей стороны не стоит. Давайте рассмотрим перспективы, для того, чтобы обеспечить будущее обоих наших цивилизаций. Мы гарантируем, что будем принимать набор нужных нам ресурсов из вашего мира в обмен на ресурсы, которых нет в вашем мире.
-botania.page.elfMessage5=&oМы взяли на себя смелость, и дали задание нашим лучшим писцам, собрать большой набор знаний из нашего мира, которым мы готовы поделиться. Вы можете найти эти знания в своей Лексике. Надеемся, Вы найдете их поучительными и что они поощрят вас использовать наши материалы для создания этих уникальных предметов.
-botania.page.elfMessage6=&oИ последнее, но не менее важное, имейте в виду, что если вы решите отправить то, чем мы не договаривались торговать, будем считать это подароком и оставим его у себя без дополнительного предупреждения. Мы с нетерпением ждем обмена ресурсами с вами. <br>С уважением, Высший совет Эльфийских садов.
+botania.page.elfMessage1=&oПриветствуем. Мы заметили, что наш портал активировался и соединился с другим миром. И, скажем честно, это нас потрясло. Благодарим за то, что предоставили нам книгу знаний из Вашего мира, чтобы держать нас в курсе того, что произошло с тех пор, как мы покинули этот мир. Ведь прошло уже много времени, и приятно знать, что у вас там все хорошо.
+botania.page.elfMessage2=&oМы провели несколько переговоров с высшим советом Эльфийского Сада и предлагаем Вам сотрудничество. Видите ли, Ваша "Лексика Botania" рассказала нам о большом количестве ресурсов из Вашего мира, которые мы бы очень сильно хотели получить, поскольку их невозможно найти в наших землях.
+botania.page.elfMessage3=&oСвязь, которую Вы сумели установить, довольно слаба, и, как Вы уже поняли, никакие живые существа не смогут пройти через портал. Однако есть и хорошая новость: эта связь разрывает ткань времени между нашими мирами и не может синхронизировать их друг с другом - именно поэтому к Вам так быстро вернулась книга.
+botania.page.elfMessage4=&oЧто касается маны и других магических сил, их у нас довольно много, поэтому не беспокойтесь, на нашем конце портал не закроется. Давайте договоримся, ведь дело касается развития наших с Вами цивилизаций: Вы будете кидать нам определенные ресурсы из своего мира, которых нам не хватает, в обмен на те, которых нет у Вас.
+botania.page.elfMessage5=&oМы взяли на себя смелость дать задание нашим лучшим писцам, чтобы они собрали большой набор знаний из нашего мира, которым мы готовы поделиться с Вами. Теперь Вы сможете найти эти знания в вашей Лексике. Мы надеемся, что они будут очень полезны и воодушевят Вас вложить свои средства в наши ресурсы.
+botania.page.elfMessage6=&oИ последнее: имейте в виду, что если Вы решите отправить нам что-то, чего мы не просили, мы посчитаем это подарком и оставим у себя, просто заранее предупреждаем. С нетерпением ждем, когда Вы решите обменяться с нами ресурсами.<br>&oС наилучшими пожеланиями, Высший совет Эльфийского Сада.
 
 # -- THE RESOURCES OF ALFHEIM
 botania.entry.elfResources=Ресурсы Альфхейма
@@ -3590,11 +3592,11 @@ botania.page.elfResources1=Обмен &1Древесины мечтаний&0
 botania.page.elfResources2=&1Древесина мечтаний&0, может быть использована в различных &4Декоративных блоках&0, аналогично &1Жизнедереву&0. Почитайте об этом в статье &4Декоративные блоки&0 в разделе &4Разное&0.
 botania.page.elfResources10=&1Ветка из древесины мечтаний&0
 botania.page.elfResources3=Обмен &1Элементия&0
-botania.page.elfResources4=Обмен &1Пыльцы фей&0
+botania.page.elfResources4=Обмен &1Пыльцы феи&0
 botania.page.elfResources5=Обмен &1Драконьего камня&0
 botania.page.elfResources6=&1Эльфы&0 также довольно заинтересованы в строительстве шикарного белого квартала из &1Кварца нижнего мира&0, т.к. их мир имеет зеленый оттенок. Эльфийский кварц используется также как и любой другой, будь то простой кварц или любой из вариантов декоративного. Вы можете найти инфо о нем в статье &4Декоративные блоки&0 из раздела &4Разное&0.
 botania.page.elfResources7=Обмен &1Эльфийского кварца&0
-botania.page.elfResources8=Альфхейм имеет также собственный вариант &1Стекла&0, называемого &1Эльфийское стекло&0. Оно выглядит довольно просто, но его узоры случайны (зависят от того где оно расположено).
+botania.page.elfResources8=Альфхейм имеет также собственный вариант &1Стекла&0, называемого &1Эльфийское стекло&0. Оно выглядит довольно просто, но его узоры случайны и зависят от того где оно расположено.
 botania.page.elfResources9=Обмен &1Эльфийского стекла&0
 
 # -- RITUAL OF GAIA
@@ -3609,31 +3611,31 @@ botania.page.gaiaRitual5=Трудности и награды, присужда�
 
 # -- RITUAL OF GAIA II
 botania.entry.gaiaRitualHardmode=Ритуал Гайи II
-botania.tagline.gaiaRitualHardmode=Пикси Boogaloo
+botania.tagline.gaiaRitualHardmode=Танец пикси
 botania.page.gaiaRitualHardmode0=Можно было бы подумать, что объединение двух самых мощных ресурсов, известных для существования, в форме &1Террастали&0 и &1Духа Гайи&0 создаст непреодолимый материал. Кажется, что материал очень прекрасен. Фактически, две силы дополняют друг друга при объединении в слиток, создавая совершенно бесполезный сплав.
 botania.page.gaiaRitualHardmode1=Этот слиток, однако, из-за сосредоточенной энергии и мощности в нем, позволяет вызвать более сильного &1Хранителя Гайи&0, с большим сопротивлением, силой и скоростью.<br>Также больше дропается &1Духов Гайи&0,чем обычно. А также горсть лакомства и редкое сокровище, делая его достойным противником.
 botania.page.gaiaRitualHardmode2=Создание &1Слитка духа Гайи&0.
 
 # -- THE RELICS OF THE AESIR
-botania.entry.relics=Реликвии Пантеона
+botania.entry.relics=Реликвии Богов
 botania.tagline.relics=Миф? Или реальность?
-botania.page.relics0=Есть старая сказка из высоких кланов Альфхейма. В нем говорится что-то из строк «Тот, кто бросает кости судьбы, должен быть вознагражден Дарами Богов». Похоже, что эти так называемые &1Реликвии Пантеона&0 являются уникальными и душевными, благодаря чему только одна реликвия может быть присуждна любому человеку, и только он может ее использовать. <br> Но опять же, это, вероятно, просто фольклор.
+botania.page.relics0=Среди высших кланов Альвхейма бытует старая сказка. Её главный смысл лежит в этих строках: "Тот, кто бросит Кости судьбы, будет вознагражден Дарами Богов". Похоже, что эти так называемые &1Реликвии Богов&0 уникальны и привязаются к душе, а потому каждый из даров можно получить лишь раз, и использовать его сможет только владелец. Но, в конце концов, это всего лишь фольклор...
 
 # -- THE RELICS OF THE AESIR II
 botania.entry.relicInfo=Реликвии Пантеона II
 botania.tagline.relicInfo=В конце концов, они настоящие
-botania.page.relicInfo0=Похоже, что предполагаемые реликвии действительно реальны. Эти предметы, материализованные из рулонов &1Костей судьбы&0, обладают невероятными способностями,и, учитывая тот факт, что кости - шестисторонние, возможно, указывает на существование шести из них. <br> Реликвии, похоже, содержат знания о том, кто их заработал, и, таким образом, если подобрать чью-то реликвия, которая не принадлежит вам, то это может быть плохой затеей.
-botania.page.relicInfo1=Согласно оригинальным текстам, одна и та же реликвия не может быть присуждена одному человеку дважды, поэтому сохранение этого предмета является приоритетом. Возможно, что-то вроде &1Безсмертного плюща&0 будет хорошей инвестицией. <br> Интересно, что получение реликвии также придает этой лексику знания о том, как ее использовать. Насколько полезно.
+botania.page.relicInfo0=Похоже, что мифические реликвии на самом деле реальны. Эти предметы, что появились после броска &1Костей судьбы&0, обладают невероятными способностями, а тот факт, что кости имеют шесть сторон, возможно указывает на то, что всего реликвий шесть. И видимо, Реликвии содержат информацию о том, кто их получил, поэтому лучше не давать реликвии тем, кому они не принадлежат, мало ли что случится...
+botania.page.relicInfo1=Согласно подлинным текстам, одна и та же реликвия не может быть присуждена одному человеку дважды(но на Redserver обошли это ограничение), поэтому важно хранить такие вещи в безопасности. Возможно, хорошей идеей будет соединить их с &1Resolute Ivy&0.<br>Довольно интересен тот факт, что при получении определенной реликвии в лексике появляется информация о том, как ее использовать. Как удобно!
 
 # -- THE FRUIT OF GRISAIA   
 botania.entry.infiniteFruit=Фрукт Гризайи
 botania.tagline.infiniteFruit=Бесконечный запас питания
-botania.page.infiniteFruit0=Реликвия, известная как &1Фрукт Гризайи&0 ,обладает силой, которая вечно питает отважную душу, которая ее заслужила. Его можно съесть аналогично любому другому кусочку пищи, но вместо того, чтобы использовать материал для кормления, он использует &4Ману&0 из своего инвентаря. Надеюсь, вам понравится вкус яблока.
+botania.page.infiniteFruit0=Реликвия, известная как &1Фрукт Гризайи&0, способна бесконечно прокармливать храброго героя, который её заслужил. Её можно съесть также, как и любую другую пищу, однако для насыщения голода она будет тратить &4ману&0 из инвентаря владельца.<br>Надеюсь, Вам нравятся яблоки.
 
 # -- KEY OF THE KING'S LAW
-botania.entry.kingKey=Ключ к арсеналу короля
-botania.tagline.kingKey=Откройте казну
-botania.page.kingKey0=&1Ключ к арсеналу короля&0 является мощной реликвией с возможностью материализовать оружие по команде. Удерживая нажатие правой кнопки мыши с помощью этого ключа, вы вызовете пентхору разнообразного оружия ... где-нибудь. Одновременно можно создать до двадцати видов оружия. Освобождение сцепления с ключом запустит все оружие, по одному за раз, на котором смотритель смотрит на высокой скорости. Это оружие создаст взрыв при контакте.
+botania.entry.kingKey=Ключ от Королевской оружейной
+botania.tagline.kingKey=Открой дверь в сокровищницу
+botania.page.kingKey0=&1Ключ от Королевской оружейной&0 - это мощная реликвия, способная по команде материализовать оружие. Удерживая ПКМ с Ключом в руках, Вы сможете вызвать гору оружия из... ну, откуда-то. За раз можно призвать до 20 единиц. Отпустив ПКМ, Вы запустите все это оружие туда, куда направлен Ваш взгляд. Они будут вылетать по одному, но с высокой скоростью. Взорвутся при контакте с чем-либо.
 
 # -- EYE OF THE FLUGEL
 botania.entry.flugelEye=Глаз Флюгеля
@@ -3842,7 +3844,7 @@ botania.page.bcIntegration0=Недавние достижения в облас�
 # -- BANNER ADDITIONS
 botania.entry.banners=Баннерные дополнения
 botania.tagline.banners=Множество новых шаблонов баннеров
-botania.page.banners0=В присутствии &1Баннеров&0 из будущего, &1Botania&0 добавляет &415&0 новых значков к ним, которые можно смешивать и сопостовлять с оригинальными шаблонами и значками.<br>Следующие элементы могут использоваться вместе с красками в сетке крафта, чтобы добавить  &1Баннер&0: &1Все железные инструменты&0, &1Искра Дополняющая&0, &1Сырая рыба&0, &1Жизнедерево и ветки древесины мечтаний&0, &1Лексика botania&0, &1Терра-сталь&0 и &1Миникартофель&0.
+botania.page.banners0=В присутствии &1Баннеров&0 из будущего, &1Botania&0 добавляет &415&0 новых значков к ним, которые можно смешивать и сопостовлять с оригинальными шаблонами и значками.<br>Следующие элементы могут использоваться вместе с красками в сетке крафта, чтобы добавить  &1Баннер&0: &1Все железные инструменты&0, &1Искра Дополняющая&0, &1Сырая рыба&0, &1Жизнедерево и ветки древесины мечтаний&0, &1Лексика botania&0, &1Террасталь&0 и &1Миникартофель&0.
 botania.page.banners1=Витрина различных баннеров
 
 # -- PREVNTING DECAY
