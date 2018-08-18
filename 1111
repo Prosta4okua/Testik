@@ -1,7 +1,4 @@
-Импорт и Экспорт Карт
-
-Сейчас
-В Mindustry 4.0 alpha Build 51 импорт карт осуществляется только через меню "Карты" или "Редактор карт" функцией "Импорт" файла с расширением .mmap (.mindustry_map). Экспорт осуществляется через "Редактор карт" функцией "Экспорт" файла с расширением .mmap.
-
-История
-В версиях Mindustry с 1.0 по 3.0 данная функция отсутствовала из-за отсутствия самого редактора карт. После релиза Mindustry 3.0 beta, в которой игрокам дали возможность создавать карты с помощью "Редактора карт", можно было импортировать и экспортировать карты в формате .png. После выхода Build'а 41 (4.0 alpha), помимо обновленного редактора, игроки получили возможность экспортировать/импортировать .mmap файл, Карту ландшафта (Terrain Image) и .png . После выхода 44 Build'а импортировать/экспортировать  .png и Карт ландшафта нельзя. 
+text.construction.title=Block Construction Guide
+text.construction=You've just selected [accent]block construction mode[].\n\nTo begin placing, simply tap a valid location near your ship.\nOnce you have selected some blocks, press the checkbox to confirm, and your ship will begin constructing them.\n\\n- [accent]Remove blocks[] from your selection by tapping them.\n- [accent]Shift the selection[] by holding and dragging any block in the selection.\n- [accent]Place blocks in a line[] by tapping and holding an empty spot, then dragging in a direction.\n- [accent]Cancel construction or selection[] by pressing the X at the bottom left.
+text.deconstruction.title=Block Deconstruction Guide
+text.deconstruction=You've just selected [accent]block deconstruction mode[].\n\nTo begin breaking, simply tap a block near your ship.\nOnce you have selected some blocks, press the checkbox to confirm, and your ship will begin de-constructing them.\n\\n- [accent]Remove blocks[] from your selection by tapping them.\n- [accent]Remove blocks in an area[] by tapping and holding an empty spot, then dragging in a direction.\n- [accent]Cancel deconstruction or selection[] by pressing the X at the bottom left
