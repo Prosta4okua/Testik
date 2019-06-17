@@ -1,91 +1,20 @@
-{
-  "helps" : {
-	"help" : "%s [команда]- [sky]Отображает этот список команд",
-	"version" : "%s - [sky]Отображает информацию о версии сервера",
-	"exit" : "%s - [sky]Выход из сервера",
-	"stop" : "%s - [sky]Прекратить хостинг сервера",
-	"host" : "%s <название_карты> [режим] - [sky]Запускает сервер с определенной картой",
-	"hostx" : "%s <идентификатор карты> [mode] - [sky]Запускает сервер с определенной картой",
-	"port" : "%s [port] - [sky]Устанавливает или отображает порт для размещения сервера",
-	"maps" : "%s  - [sky]Показать все доступные карты",
-	"reloadmaps" : "%s  - [sky]Перезагрузить все карты с диска",
-	"status" : "%s - [sky]Показать статус сервера",
-	"say" : "%s <message...> - [sky]Отправить сообщение всем игрокам",
-	"difficulty" : "%s <difficulty> - [sky]Установить сложность игры",
-	"fillitems" : "%s [team] - [sky]Заполните ядро всеми предметами",
-	"name" : "%s [name...] - [sky]Изменить отображаемое имя сервера",
-	"crashreport" : "%s <on/off> - [sky]Включает автоматическое оповещение о сбоях",
-	"logging" : "%s <on/off> - [sky]Включает логи сервера",
-	"strict" : "%s <on/off> - [sky]Переключает строгий режим",
-	"allow-custom-clients" : "%s [on/off] - [sky]Разрешить или заблокировать пользовательских клиентов",
-	"shuffle" : "%s <on/off> - [sky]Переключить случайные карты",
-	"kick" : "%s <username...> - [sky]Кикнуть игрока по имени",
-	"ban" : "%s <type-id/name/ip> <username/IP/ID...> - [sky]Забанить игрока",
-	"bans" : "%s - [sky]Список всех заблокированных IP-адресов и идентификаторов",
-	"unban" : "%s <ip/ID> - [sky]Полностью разблокировать игрока по IP или ID",
-	"admin" : "%s <username...> - [sky]Игрок, который на сервер, становится [cyan]Администратором[]",
-	"unadmin" : "%s <username...> - [sky]Удаляет статус [cyan]Администратора[] с игрока, который находится на сервере",
-	"admins" : "%s - [sky]Отобразить всех[] [cyan]Администраторов[]",
-	"runwave" : "%s - [sky]Вызвать следующую волну",
-	"load" : "%s <slot> - [sky]Загрузите сохранение из слота",
-	"save" : "%s <slot> - [sky]Сохранить текущее состояние игры в слот",
-	"gameover" : "%s  - [sky]Принудительное завершение игры",
-	"info" : "%s <IP/UUID/name...> - [sky]Найти информацию об игроке. При желании можно проверить все имена или IP-адреса игрока",
-	"slots" : "%s [sky]Показать все доступные слоты для сохранения",
-    "mode": "%s [mode] [sky]режим просмотра или фиксированный режим, установленный текущим сервером, фиксированный режим, установленный при выполнении команд host или hostx, не позволяет указывать режим, режимы: pvp, attack, sandbox, survival, none",
-	"vote" : "%s <cmd> - [sky]Голосование началось(длится 60 секунд), проголосуйте отправивив 1 или 0 (Да:1, Нет:0)",
-	"mapManage" : "%s - [sky]Начнётся смена карт(длится 600 секунд), карты будут загружены, изменены и/или удалены."
-  },
-  "info" : {
-	"auto_save" : "Автоматическое сохрание %d",
-	"server_restart" : "Сервер должен быть перезапущен. Пожалуйста, подождите 10 секунд перед входом на сервер!",
-	"save_slot_succ" : "Успешно сохранено в (%s)-ый слот!",
-	"admin_added" : "[%s] стал [cyan]Администратором[]!",
-	"admin_removed" : "[%s] был удалён из [cyan]Администраторов[]!",
-	"cmd" : " Команда %s",
-	"super_admin_cmd" : "Команды [charteuse]Главного Администратора[]: %s",
-	"admin_cmd" : "Команды [cyan]Администратора[]: %s",
-	"user_cmd" : "Команды игрока: %s",
-	"votetick_cmd" : "Команды для голосования: %s",
-	"ver" : "Версия: %s",
-	"super_admin_list" : "[charteuse]Главные администраторы[]: %s",
-	"admin_list" : "[cyan]Администраторы[]: %s",
-	"slots_list" : "Слоты: %s",
-	"maps_list" : "Карты: %s",
-	"votetick_in_progress" : "Сейчас происходит голосование, пожалуйста, подождите!",
-	"votetick_begin_info" : "Голосование началось(длится 60 секунд), проголосуйте отправивив 1 или 0 (Да:1, Нет:0)",
-	"welcom_super_admin" : "Добро пожаловать, [charteuse]Главный администратор [red] %s",
-	"welcom_admin" : "Добро пожаловать, [cyan]Администратор[] %s",
-	"cpu_temperature":"Температура процессора: %.3f°C",
-	"votetick_pass":"Голосование не состоялось, все: %d, согласные: %d",
-	"votetick_fail":"Голосование не состоялось, все: %d, согласные: %d, [cyan]Администраторов[] против: %d",
-	"mode_show":"Режим сервера — [%s],Если режим не установлен, вы можете указать режим при выполнении команд host или hostx",
-	"cmd_mapManage_start": "Началась смена карт(длится 600 секунд), карты могут быть загружены, изменены и/или удалены.",
-	"cmd_mapManage_end": "Смена карт завершена,карты не могут быть загружены, изменены и/или удалены.",
-	"status_show": "Статус: %s"
-},
-  "error" : {
-	"admin_unremoved" : "Игрок с никнеймом [%s] не обнаружен!",
-	"cmd_timeout" : "[red]Команда '%s' превысила!",
-	"cmd_length_invalid" : "[red]Команда '%s' недействительная, так как превышена длина!",
-	"cmd_hostx_id_not_number" : "[red]Команда '%s' недействительная, пожалуйста, введите число!",
-	"cmd_hostx_id_not_found" : "[red]Команда '%s' недействительная, идентификатор карты не обнаружен!",
-	"cmd_host_map_not_found" : "[red]Команда '%s' недействительная, карта не обнаружена!",
-	"cmd_invalid" : "[red]Команда '%s' недействительная!",
-	"cmd_host_mode_invalid" : "[red]Команда '%s' недействительная, ошибка режима!",
-	"cmd_save_slot_invalid" : "[red]Слот '%s' недейсвительный, пожалуйста, введите число. Пример: save 1",
-	"cmd_load_slot_invalid" : "[red]Не удалось загрузить слот '%s'. Проверьте входные данные",
-	"cmd_admin_name_invalid" : "[red]Пожалуйста, введите никнейм [cyan]Администратора[]",
-	"cmd_is_exceuting" : "[red]Команды '%s' выполняется, пожалуйста, дождитесь завершения выполнения!",
-	"cmd_votetick_target_invalid" : "[red]Команда '%s' для голосования недействительная",
-	"cmd_votetick_in_progress" : "[red]Происходит голосование, пожалуйста, подождите!",
-	"cmd_votetick_not_permit" : "[red]Не хватает прав для голосование за выполнение команды '%s'",
-	"cmd_votetick_cmd_error" : "[red]Ошибка голосования за команду '%s'",
-	"cmd_votetick_cmd_not_support" : "[red]Голосование за команду '%s' не поддерживается.",
-	"cmd_permission_denied" : "[red]У Вас не хватает прав для выполнения команды '%s'!",
-	"cmd_invalid_user" : "[red] Команда '%s' недействительная!",
-	"cmd_host_fix_mode" : "[red]Сервер заблокирован для игры в режиме [%s]. Если вы хотите играть в других режимах, пожалуйста, свяжитесь с Главным Администратором.",
-	"login_forbbidden_username" : "[red]Запрещено использование никнейма 'Server'!",
-	"cmd_mapManage_started": "[red]Происходит изменение карт, пожалуйста, подождите!"
-}
-}
+[server]
+name=[red]S[orange]e[yellow]r[green]v[blue]e[purple]r 
+normCmds=admins,show,maps,help,vote,slots
+adminCmds=load,save,reloadmaps,help,host,hostx,maps,slots,admins,show,vote,mapManage
+superAdminCmds=admin,unadmin,exit,stop,help,host,hostx,maps,slots,admins,show,vote,mode,runwave,mapManage
+votetickCmds=gameover,hostx,load,runwave
+;cron task auto notice msg
+notice=Добро пожаловать на сервер. По всем вопросам писать в дискорд сервер: discord.gg/UrhqVxf Кстати, а ТЫ пробовал писать !help ?
+;Configure the file name in the locale directory and remove the suffix
+language=en_US
+;jarPath=-Xms128M -Xmx512M -jar server-release.jar 
+jarPath=-jar server-release.jar
+;If configuration banCfg will automatically ban every hour
+;banCfg=http://raw.githubusercontent.com/ydlover/mindustry_admin/master/ban.json
+isShowDefaultMapInMaps=0
+mindustryPort=6567
+mapMangePort=6570
+;No uploading beyond the upper limit
+maxMapCount=60
+mode = none
